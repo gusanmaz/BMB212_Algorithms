@@ -1,2 +1,67 @@
-# NKU_DS_Course_2022
-NKÜ Bilgisayar Mühendisliği BMB212 Veri Yapıları Uygulama Notları ve Ödevleri
+# NKÜ Bilgisayar Mühendisliği BMB212 Veri Yapıları Uygulama Notları ve Ödevleri
+
+Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, proje bilgileri, duyurular vb.) ulasabilirsiniz. 
+
+## 1. Uygulama (22 Mart 2022)
+
+### Instructor
+
+Ars. Gor. Guvenc Usanmaz
+Oda: B207
+Bolum: Bilgisayar Muhendisligi
+Email: gusanmaz <att< nku nokta edu nokta tr
+
+### Prerequisites / Ders Hazirlik
+
+1. [Github](https://github.com/) hesabi acilacak
+2. [Repl.it](https://replit.com/) hesabi acilacak
+3. [Bilgilendirme Formu](https://forms.gle/8AzYpckY7S43QTjM8) doldurulacak
+4. Universite email hesaplari duzenli kontrol edilecek
+5. Bu [repo](https://github.com/gusanmaz/NKU_DS_Course_2022) duzenli kontrol edilecek. Yeni odev ve proje duyurulari buradan ve/veya email yoluyla yapilacak
+
+### Onerilen Kaynaklar
+
+* [CS50](https://cs50.harvard.edu/college/2022/spring/)
+* [Introduction to Programming in Java](https://introcs.cs.princeton.edu/java/home/)
+* [Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/) 
+* [Algoritmalar, Robert Sedgewick, NOBEL AKADEMİK YAYINCILIK](https://www.kitapyurdu.com/kitap/algoritmalar/498451.html)
+* [Introduction to Algorithms, Fourth Edition](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X)
+
+**Algorithm Visualisation**
+
+* [https://visualgo.net/en](https://visualgo.net/en)
+* [https://algorithm-visualizer.org/](https://algorithm-visualizer.org/)
+* [https://www.cs.usfca.edu/~galles/visualization/Algorithms.html](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+### Git
+
+* [Pro Git book](https://git-scm.com/book/en/v2)
+* [Turkce Git 101](https://aliozgur.gitbooks.io/git101/content/)
+* [Git Basit Rehber](https://rogerdudler.github.io/git-guide/index.tr.html)
+* [Yeni Baslayanlar icin Git 101](https://medium.com/@muratcanbur/yeni-ba%C5%9Flayanlar-i%C3%A7in-git-101-ff7ea5b3eff9)
+* [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+* [Git Github Kullanim Rehberi](https://www.enesonmez.com/git-github-nedir-kullanim-rehberi/)
+* [Introduction to Git - talk by Scott Chacon](https://youtu.be/xbLVvrb2-fY)
+* [Introduction to Git with Scott Chacon of GitHub](https://youtu.be/ZDR433b0HJY)
+* [Git 101 | Git, GitHub nedir?](https://youtu.be/nyIdgGD74c4)
+* [Git, GitHub ve GitLab Kullanımı Playlist](https://www.youtube.com/playlist?list=PLPrHLaayVkhnNstGIzQcxxnj6VYvsHBHy)
+
+### IDE Kullanimi
+
+* [Jet Brains](https://www.jetbrains.com/)
+   *  [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+   *  [CLion](https://www.jetbrains.com/clion/)
+   *  [PyCharm](https://www.jetbrains.com/pycharm/)
+   *  [GoLand](https://www.jetbrains.com/go/)
+   *  [Rider](https://www.jetbrains.com/rider/)
+* [VS Code](https://code.visualstudio.com/)
+* Visual Studio
+* [Repl.it](https://replit.com)
+
+
+
+
+
+
+ 
+
