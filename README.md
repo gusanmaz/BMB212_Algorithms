@@ -7,8 +7,11 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 ### Instructor
 
 Ars. Gor. Guvenc Usanmaz
+
 Oda: B207
+
 Bolum: Bilgisayar Muhendisligi
+
 Email: gusanmaz <att< nku nokta edu nokta tr
 
 ### Prerequisites / Ders Hazirlik
