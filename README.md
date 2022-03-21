@@ -62,9 +62,23 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Repl.it](https://replit.com)
 
 
+### Terminal Kullanimi
 
+* [Linux Tutorial for Beginners - Learn Linux and the Bash Command Line](https://ryanstutorials.net/linuxtutorial/)
+* Windows? [Cygwin](https://www.cygwin.com/)
 
+# Command Line Arguments
 
+* [Command Line Arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html)
+* [Java Ornek Kodu - Github Gist](https://gist.github.com/gusanmaz/49dae8ffd1b1511e7c394a259dae785d) 
+* [Replit Ornek Kodu](https://replit.com/@GuvencUsanmaz/CommandLineArgsJavaExample1)
 
- 
+### Github Ders Sayfasi
+
+* Ders Sayfasi: [https://classroom.github.com/classrooms/81414932-data_structures_2122_spring](https://classroom.github.com/classrooms/81414932-data_structures_2122_spring)
+
+#### Bu haftaki alistirma linkleri
+
+* (Min2)[https://classroom.github.com/a/zrZcp24R] Program parametre olarak 2 tamsayi(integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak
+* (Min3)[https://classroom.github.com/a/sdi4a0Zb] Program parametre olarak 3 tamsayi(integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak
 
