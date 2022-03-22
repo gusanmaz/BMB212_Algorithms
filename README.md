@@ -67,6 +67,14 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Linux Tutorial for Beginners - Learn Linux and the Bash Command Line](https://ryanstutorials.net/linuxtutorial/)
 * Windows? [Cygwin](https://www.cygwin.com/)
 
+### Debugging - Hata Ayiklama
+
+* Break points
+* Step into vs. Step over
+* Step out
+* Variable values
+* [IntelliJ IDEA Debugging](https://www.jetbrains.com/help/idea/debugging-code.html)
+
 # Command Line Arguments
 
 * [Command Line Arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html)
