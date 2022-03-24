@@ -83,6 +83,36 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Java Ornek Kodu - Github Gist](https://gist.github.com/gusanmaz/49dae8ffd1b1511e7c394a259dae785d) 
 * [Replit Ornek Kodu](https://replit.com/@GuvencUsanmaz/CommandLineArgsJavaExample1)
 
+Komut satirindan alinan iki tam sayinin toplamini ekrana yazdiran kod:
+
+```java
+public class Main {
+  public static void main(String args[]) {
+    int num1 = Integer.parseInt(args[0]);
+    int num2 = Integer.parseInt(args[1]);
+    System.out.println(num1 + num2);
+  }
+}
+```
+
+Main.java isimli dosyada saklanabilecek yukarida verilen kodun derlenmesi icin calistirilmasi gereken terminal komutu:
+
+```bash
+javac Main.java
+```
+
+javac programinin derleme sonrasi olusturdugu calistirilabilir program Main.class'in calistirilmasi:
+
+```bash
+java Main 4 5 
+```
+
+Calistirilan programin ciktisi:
+
+```bash
+9
+```
+
 ### Github Ders Sayfasi
 
 * Ders Sayfasi: [https://classroom.github.com/classrooms/81414932-data_structures_2122_spring](https://classroom.github.com/classrooms/81414932-data_structures_2122_spring)
@@ -110,4 +140,20 @@ java Main 9 8 1 #Derlenmis programi 9,8 ve 1 argumanlari ile calistirma
 java Main 9 -4 1 #Derlenmis programi 9,-4 ve 1 argumanlari ile calistirma
 -4 #Program Ciktisi
 ```
+
+* [Odev3_Faktoriyel](https://classroom.github.com/a/IWMvyac9) Program argumani olarak pozitif bir tamsayi alip, alinan bu sayinin faktoriyelini donduren bir program yaziniz. ***Son gonderim tarihi: 25 Mayis 23:00***
+
+``` bash
+javac Main.java #Program Derleme
+java Main 5 #Derlenmis programi 5 degeri ile calistirma
+120 #Program Ciktisi
+java Main 1 #Derlenmis programi 1 degeri ile calistirma
+1 #Program Ciktisi
+java Main 0 #Derlenmis programi 0 degeri ile calistirma
+1 #Program Ciktisi
+java Main 1 #Derlenmis programi 6 degeri ile calistirma
+120 #Program Ciktisi
+```
+
+
 
