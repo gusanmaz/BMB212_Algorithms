@@ -75,7 +75,7 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * Variable values
 * [IntelliJ IDEA Debugging](https://www.jetbrains.com/help/idea/debugging-code.html)
 
-# Command Line Arguments
+### Command Line Arguments
 
 * [Command Line Arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html)
 * [Java Ornek Kodu - Github Gist](https://gist.github.com/gusanmaz/49dae8ffd1b1511e7c394a259dae785d) 
