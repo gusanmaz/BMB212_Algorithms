@@ -87,6 +87,6 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 #### Bu haftaki alistirma linkleri
 
-* (Min2)[https://classroom.github.com/a/zrZcp24R] Program parametre olarak 2 tamsayi(integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak
-* (Min3)[https://classroom.github.com/a/sdi4a0Zb] Program parametre olarak 3 tamsayi(integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak
+* [Min2](https://classroom.github.com/a/zrZcp24R) Program parametre olarak 2 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak
+* [Min3](https://classroom.github.com/a/sdi4a0Zb) Program parametre olarak 3 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak
 
