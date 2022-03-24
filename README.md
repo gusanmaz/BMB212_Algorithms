@@ -93,9 +93,9 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 ``` bash
 javac Main.java #Program Derleme
-java Main 4 5 
+java Main 4 5 #Derlenmis programi 4 ve 5 argumanlari ile calistirma
 4 #Program Ciktisi
-java Main 9 8
+java Main 9 8 #Derlenmis programi 9 ve 8 argumanlari ile calistirma
 9 #Program Ciktisi
 ```
 
@@ -103,11 +103,11 @@ java Main 9 8
 
 ``` bash
 javac Main.java #Program Derleme
-java Main 4 5 3
+java Main 4 5 3 #Derlenmis programi 4, 5 ve 3 argumanlari ile calistirma
 3 #Program Ciktisi
-java Main 9 8 1
+java Main 9 8 1 #Derlenmis programi 9,8 ve 1 argumanlari ile calistirma
 1 #Program Ciktisi
-java Main 9 -4 1
+java Main 9 -4 1 #Derlenmis programi 9,-4 ve 1 argumanlari ile calistirma
 -4 #Program Ciktisi
 ```
 
