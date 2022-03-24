@@ -119,6 +119,8 @@ Calistirilan programin ciktisi:
 
 #### Bu haftaki alistirma linkleri
 
+Not: Bu haftaki derste bahsedilen otomatik kod testi problemi cozulmustur. Kodunuz 'Commit changes' butonuna tiklandiktan sonra otomatik olarak derlenip, puanlandirilabilmektedir. Gonderdiginiz kodun derlenip, derlenmedigini, derlendiyse testleri gecip gecmedigini Actions sekmesi/tabi altinda gorebilirsiniz.
+
 * [Min2](https://classroom.github.com/a/zrZcp24R) Program parametre olarak 2 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mayis 23:00***
 
 ``` bash
