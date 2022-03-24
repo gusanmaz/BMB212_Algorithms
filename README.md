@@ -69,6 +69,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 ### Debugging - Hata Ayiklama
 
+![Debugging Cat](/images/debug_cat.jpeg)
+
 * Break points
 * Step into vs. Step over
 * Step out
