@@ -92,22 +92,22 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Min2](https://classroom.github.com/a/zrZcp24R) Program parametre olarak 2 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mayis 23:00***
 
 ``` bash
-javac Main.java # Program Derleme
+javac Main.java #Program Derleme
 java Main 4 5 
-4 # Program Ciktisi
+4 #Program Ciktisi
 java Main 9 8
-9 # Program Ciktisi
+9 #Program Ciktisi
 ```
 
 * [Min3](https://classroom.github.com/a/sdi4a0Zb) Program parametre olarak 3 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mayis 23:00***
 
 ``` bash
-javac Main.java # Program Derleme
+javac Main.java #Program Derleme
 java Main 4 5 3
-3 # Program Ciktisi
+3 #Program Ciktisi
 java Main 9 8 1
-1 # Program Ciktisi
+1 #Program Ciktisi
 java Main 9 -4 1
--4 # Program Ciktisi
+-4 #Program Ciktisi
 ```
 
