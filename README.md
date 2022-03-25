@@ -153,8 +153,8 @@ java Main 1 #Derlenmis programi 1 degeri ile calistirma
 1 #Program Ciktisi
 java Main 0 #Derlenmis programi 0 degeri ile calistirma
 1 #Program Ciktisi
-java Main 1 #Derlenmis programi 6 degeri ile calistirma
-120 #Program Ciktisi
+java Main 3 #Derlenmis programi 6 degeri ile calistirma
+6 #Program Ciktisi
 ```
 
 
