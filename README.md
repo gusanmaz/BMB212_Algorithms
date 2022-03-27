@@ -1,4 +1,4 @@
-# NKÜ Bilgisayar Mühendisliği BMB212 Veri Yapıları Uygulama Notları ve Ödevleri
+# NKÜ Bilgisayar Mühendisliği Veri Yapıları (BMB212) Dersi Uygulamalarının Not ve Duyuruları
 
 Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, proje bilgileri, duyurular vb.) ulasabilirsiniz. 
 
