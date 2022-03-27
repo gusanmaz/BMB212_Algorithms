@@ -69,6 +69,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 ### Debugging - Hata Ayiklama
 
+![Debugging Cat](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/debug_cats.jpeg)
+
 * Break points
 * Step into vs. Step over
 * Step out
@@ -81,12 +83,79 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Java Ornek Kodu - Github Gist](https://gist.github.com/gusanmaz/49dae8ffd1b1511e7c394a259dae785d) 
 * [Replit Ornek Kodu](https://replit.com/@GuvencUsanmaz/CommandLineArgsJavaExample1)
 
+Komut satirindan alinan iki tam sayinin toplamini ekrana yazdiran kod:
+
+```java
+public class Main {
+  public static void main(String args[]) {
+    int num1 = Integer.parseInt(args[0]);
+    int num2 = Integer.parseInt(args[1]);
+    System.out.println(num1 + num2);
+  }
+}
+```
+
+Main.java isimli dosyada saklanabilecek yukarida verilen kodun derlenmesi icin calistirilmasi gereken terminal komutu:
+
+```bash
+javac Main.java
+```
+
+javac programinin derleme sonrasi olusturdugu calistirilabilir program Main.class'in calistirilmasi:
+
+```bash
+java Main 4 5 
+```
+
+Calistirilan programin ciktisi:
+
+```bash
+9
+```
+
 ### Github Ders Sayfasi
 
 * Ders Sayfasi: [https://classroom.github.com/classrooms/81414932-data_structures_2122_spring](https://classroom.github.com/classrooms/81414932-data_structures_2122_spring)
 
 #### Bu haftaki alistirma linkleri
 
+Not: Bu haftaki derste bahsedilen otomatik kod testi problemi cozulmustur. Kodunuz 'Commit changes' butonuna tiklandiktan sonra otomatik olarak derlenip, puanlandirilabilmektedir. Gonderdiginiz kodun derlenip, derlenmedigini, derlendiyse testleri gecip gecmedigini Actions sekmesi/tabi altinda gorebilirsiniz.
+
 * [Min2](https://classroom.github.com/a/zrZcp24R) Program parametre olarak 2 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mayis 23:00***
+
+``` bash
+javac Main.java #Program Derleme
+java Main 4 5 #Derlenmis programi 4 ve 5 argumanlari ile calistirma
+4 #Program Ciktisi
+java Main 9 8 #Derlenmis programi 9 ve 8 argumanlari ile calistirma
+9 #Program Ciktisi
+```
+
 * [Min3](https://classroom.github.com/a/sdi4a0Zb) Program parametre olarak 3 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mayis 23:00***
+
+``` bash
+javac Main.java #Program Derleme
+java Main 4 5 3 #Derlenmis programi 4, 5 ve 3 argumanlari ile calistirma
+3 #Program Ciktisi
+java Main 9 8 1 #Derlenmis programi 9,8 ve 1 argumanlari ile calistirma
+1 #Program Ciktisi
+java Main 9 -4 1 #Derlenmis programi 9,-4 ve 1 argumanlari ile calistirma
+-4 #Program Ciktisi
+```
+
+* [Odev3_Faktoriyel](https://classroom.github.com/a/IWMvyac9) Program argumani olarak pozitif bir tamsayi alip, alinan bu sayinin faktoriyelini donduren bir program yaziniz. ***Son gonderim tarihi: 25 Mayis 23:00***
+
+``` bash
+javac Main.java #Program Derleme
+java Main 5 #Derlenmis programi 5 degeri ile calistirma
+120 #Program Ciktisi
+java Main 1 #Derlenmis programi 1 degeri ile calistirma
+1 #Program Ciktisi
+java Main 0 #Derlenmis programi 0 degeri ile calistirma
+1 #Program Ciktisi
+java Main 3 #Derlenmis programi 6 degeri ile calistirma
+6 #Program Ciktisi
+```
+
+
 
