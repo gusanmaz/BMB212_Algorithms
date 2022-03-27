@@ -26,8 +26,11 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 * [Assignments Page - Odev Duyurulari](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/odevler.md)
 * [Projects Page - Proje Duyurular](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/projeler.md)
+* [Odev ve Proje Notlandirmalari](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/grades.md)
 
 Bu sayfalari duzenli takip etmeniz gerekmektedir. Yeni odev duyurulari, yeni proje duyurulari, daha onceden verilmis proje ve odevlerle ilgili yeni bilgiler/duzeltmeler bu sayfalardan ilan edilecektir.  
+
+
 
 ### Onerilen Kaynaklar
 
