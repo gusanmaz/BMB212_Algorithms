@@ -22,6 +22,13 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 4. Universite email hesaplari duzenli kontrol edilecek
 5. Bu [repo](https://github.com/gusanmaz/NKU_DS_Course_2022) duzenli kontrol edilecek. Yeni odev ve proje duyurulari buradan ve/veya email yoluyla yapilacak
 
+### Odev ve Proje Sayfalari
+
+* [Assignments Page - Odev Duyurulari](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/odevler.md)
+* [Projects Page - Proje Duyurular](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/projeler.md)
+
+Bu sayfalari duzenli takip etmeniz gerekmektedir. Yeni odev duyurulari, yeni proje duyurulari, daha onceden verilmis proje ve odevlerle ilgili yeni bilgiler/duzeltmeler bu sayfalardan ilan edilecektir.  
+
 ### Onerilen Kaynaklar
 
 * [CS50](https://cs50.harvard.edu/college/2022/spring/)
