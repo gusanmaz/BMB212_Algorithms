@@ -38,6 +38,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 ### Git
 
+![Git vs Renaming](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/git_vs_renaming.jpg)
+
 * [Pro Git book](https://git-scm.com/book/en/v2)
 * [Turkce Git 101](https://aliozgur.gitbooks.io/git101/content/)
 * [Git Basit Rehber](https://rogerdudler.github.io/git-guide/index.tr.html)
@@ -82,6 +84,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Command Line Arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html)
 * [Java Ornek Kodu - Github Gist](https://gist.github.com/gusanmaz/49dae8ffd1b1511e7c394a259dae785d) 
 * [Replit Ornek Kodu](https://replit.com/@GuvencUsanmaz/CommandLineArgsJavaExample1)
+
+![Linux CLI Power](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/linux_cli.jpg)
 
 Komut satirindan alinan iki tam sayinin toplamini ekrana yazdiran kod:
 
