@@ -1,4 +1,6 @@
-* [Odev 1 (Min2)](https://classroom.github.com/a/zrZcp24R) Program parametre olarak 2 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mart 23:00***
+# [Odev 1 (Min2)](https://classroom.github.com/a/zrZcp24R) 
+
+Program parametre olarak 2 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mart 23:00***
 
 ``` bash
 javac Main.java #Program Derleme
@@ -8,7 +10,9 @@ java Main 9 8 #Derlenmis programi 9 ve 8 argumanlari ile calistirma
 9 #Program Ciktisi
 ```
 
-* [Odev 2 (Min3)](https://classroom.github.com/a/sdi4a0Zb) Program parametre olarak 3 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mart 23:00***
+# [Odev 2 (Min3)](https://classroom.github.com/a/sdi4a0Zb) 
+
+Program parametre olarak 3 tamsayi (integer) deger okuyup bu degerlerden kucuk olanini ekrana yazdiracak. ***Son gonderim tarihi: 25 Mart 23:00***
 
 ``` bash
 javac Main.java #Program Derleme
@@ -20,7 +24,9 @@ java Main 9 -4 1 #Derlenmis programi 9,-4 ve 1 argumanlari ile calistirma
 -4 #Program Ciktisi
 ```
 
-* [Odev3 (Faktoriyel)](https://classroom.github.com/a/IWMvyac9) Program argumani olarak pozitif bir tamsayi alip, alinan bu sayinin faktoriyelini donduren bir program yaziniz. ***Son gonderim tarihi: 25 Mart 23:00***
+# [Odev3 (Faktoriyel)](https://classroom.github.com/a/IWMvyac9) 
+
+Program argumani olarak pozitif bir tamsayi alip, alinan bu sayinin faktoriyelini donduren bir program yaziniz. ***Son gonderim tarihi: 25 Mart 23:00***
 
 ``` bash
 javac Main.java #Program Derleme
