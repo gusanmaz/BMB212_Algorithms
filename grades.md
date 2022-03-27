@@ -13,7 +13,7 @@
 * Sadece otomatik testleri gececek sekilde yazilmis kodlar tespit edildiginden kodlarinizi test etmek icin yeni testler yazilmistir. 
 * Derlenebilen kodlara 20 puan verilmistir.
 * Ilk 2 odevde 20 farkli test uygulanmistir. Her testin toplam puana 4 puan katkisi vardir.
-* 3. odevde 10 farkli test uygulanmistir. Her testin toplam puana 8 puan katkisi vardir.
+* Ucuncu odevde 10 farkli test uygulanmistir. Her testin toplam puana 8 puan katkisi vardir.
 * Bundan sonraki odev ve projelerde Github testleri buyuk ihtimalle kullanilmayacaktir.
 * Odev gonderen arkadaslara tesekkurler :)
 * Odevlerden tam puan alamayan arkadaslar lutfen odevlerden tam puan alan arkadaslarin kodlari ile kendi kodlarini karsilastirsin odev not tablolari uzerinden.
