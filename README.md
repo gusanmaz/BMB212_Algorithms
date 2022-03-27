@@ -124,7 +124,7 @@ Calistirilan programin ciktisi:
 9
 ```
 
-#### Bu haftaki alistirma linkleri
+### Bu haftaki alistirma linkleri
 
 Not: Bu haftaki derste bahsedilen otomatik kod testi problemi cozulmustur. Kodunuz 'Commit changes' butonuna tiklandiktan sonra otomatik olarak derlenip, puanlandirilabilmektedir. Gonderdiginiz kodun derlenip, derlenmedigini, derlendiyse testleri gecip gecmedigini Actions sekmesi/tabi altinda gorebilirsiniz.
 
