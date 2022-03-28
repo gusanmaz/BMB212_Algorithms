@@ -285,22 +285,22 @@ java Main.class listem.txt #Derlenmis programi listem.txt argumani ile calistirm
 
 Bu odevleri kodlayabilmeniz icin `ReadIntArrayFromFile` metodunu kullanmaniz gerekmektedir. Sablon kodlarda size hazir verilen bu metodun kodlari ile oynamayiniz ve herhangi bir degisiklik yapmayiniz!
 
-* [Odev4 DiziCarpim](https://classroom.github.com/a/Y5yCjGxG) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilarin carpimini ekrana yazdiran bir program yaziniz. Metin dosyasi bos bir dosya ise (icinde hic tamsayi bulunmazsa program ekrana 0 yazdirmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+* [Odev4 DiziCarpim](https://classroom.github.com/a/Y5yCjGxG) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilarin carpimini ekrana yazdiran bir program yaziniz. Metin dosyasi bos bir dosya ise (icinde hic tamsayi bulunmazsa program ekrana 1 (carpma isleminin etkisiz elemani) yazdirmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
 
 ```bash
 cat list.txt
 1 5 6 9 9 -3
 javac Main.java
 java Main 
-27
+-7290
 ```
 
 ```bash
 cat deneme.txt
-0 0 0 0 1 1 8 -4 9   2 0 0
+1 1 1 -1 1 1 8 -4 9   2 2 1
 javac Main.java
 java Main 
-17
+1152
 ```
 
 ```bash
@@ -308,10 +308,10 @@ cat deneme3.txt
      #deneme3.txt dosyasinda sadece bosluk karakterleri var. 
 javac Main.java
 java Main 
-0
+1 # 1 carpma isleminin etkisiz elemanidir.
 ```
 
-* [Odev5 DiziCiftOrtalama](https://classroom.github.com/a/hpXYd1dN) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan cift olanlarin ortalamasini ekrana yazdiran bir program yaziniz. Listede cift sayi yoksa ortalama 0 olacagi icin ekrana sifir yazdirilmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+* [Odev5 DiziCiftOrtalama](https://classroom.github.com/a/hpXYd1dN) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan cift olanlarin ortalamasini ekrana yazdiran bir program yaziniz. Listede cift sayi yoksa ortalama 0 olacagi icin ekrana sifir yazdirilmalidir. Tam sayilarin ortalamasi rasyonel sayi (double) cikabilir. Programiniz kodlarken bu durumu goz onunde bulundurunuz! ***Son gonderim tarihi: 3 Nisan 2022 23:00***
 
 ```bash
 cat a.txt
