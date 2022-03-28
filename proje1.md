@@ -18,7 +18,7 @@ degisiklikler yapiniz.
 * Derleme hatasi veren projeler degerlendirmeye alinmayacaktir, bu projeler 0 olarak notlandirilacaktir.
 * Projenizindeki fonksiyonlarin calisma zamani hatasi (runtime error) uretmedigine emin olun. Bu tur hatalar da projeden dusuk not, hatta 0 almaniza neden olabilir. 
 
-#Duzeltmeler
+# Duzeltmeler
 
 * PDF'deki `Ornegin KatalanSayisi(10) ifadesi 4862 degerinidondurecektir.` ifadesinin `Ornegin KatalanSayisi(9) ifadesi 4862 degerinidondurecektir.` seklinde degistirilmesi gerekmektedir.
 * `public static int ToplaPalindrome6()` olarak verilen ToplaPalindrome6 metod imzasi `public static long ToplaPalindrome6()` olarak degistirilmistir. Bu Degisiklik iki dilin (C# ve Java) taslak kodlarinda da uygulanmalidir. 
