@@ -281,6 +281,95 @@ java Main.class listem.txt #Derlenmis programi listem.txt argumani ile calistirm
 210 #Calistirdigimiz programin ciktisi
 ```
 
+### Yeni Odevler (Odev Verilme Tarihi: 28 Mart 2022)
+
+Bu odevleri kodlayabilmeniz icin `ReadIntArrayFromFile` metodunu kullanmaniz gerekmektedir. Sablon kodlarda size hazir verilen bu metodun kodlari ile oynamayiniz ve herhangi bir degisiklik yapmayiniz!
+
+* [Odev4 DiziCarpim](https://classroom.github.com/a/Y5yCjGxG) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilarin carpimini ekrana yazdiran bir program yaziniz. Metin dosyasi bos bir dosya ise (icinde hic tamsayi bulunmazsa program ekrana 0 yazdirmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+
+```bash
+cat list.txt
+1 5 6 9 9 -3
+javac Main.java
+java Main 
+27
+```
+
+```bash
+cat deneme.txt
+0 0 0 0 1 1 8 -4 9   2 0 0
+javac Main.java
+java Main 
+17
+```
+
+```bash
+cat deneme3.txt
+     #deneme3.txt dosyasinda sadece bosluk karakterleri var. 
+javac Main.java
+java Main 
+0
+```
+
+* [Odev5 DiziCiftOrtalama](https://classroom.github.com/a/hpXYd1dN) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan cift olanlarin ortalamasini ekrana yazdiran bir program yaziniz. Listede cift sayi yoksa ortalama 0 olacagi icin ekrana sifir yazdirilmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+
+```bash
+cat a.txt
+1 4 6 9 9 -3
+javac Main.java
+java Main 
+5
+```
+
+
+
+```bash
+cat deneme.txt
+0 0 0 0 1 1 8 -4 9 2 0 0
+javac Main.java
+java Main 
+0.666
+```
+
+
+```bash
+cat cift.txt
+1 6 4 4
+javac Main.java
+java Main 
+4.666
+```
+
+* [Odev6 DiziFark](https://classroom.github.com/a/Kw0B3ymL) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan en buyugu ile en kucugu arasindaki farki `max - min` ekran yazdiran bir program yaziniz. Dosyadaki en kucuk ve en buyuk sayi ayni sayi program ekrana 0 yazdirmalidir. Ayni sekilde arguman olarak alinan dosyada herhangi bir sayi bulunmuyorsa program ekrana 0 yazdirmalidir.  ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+
+```bash
+cat a.txt
+1 4 6 9 9 -3
+javac Main.java
+java Main 
+12 #9 - (-3)
+```
+
+
+
+```bash
+cat deneme.txt
+1 1 6 7 5 8 8 8 1 
+javac Main.java
+java Main 
+7 # 8 - 1
+```
+
+
+```bash
+cat cift.txt
+4 4 4 4 4
+javac Main.java
+java Main 
+0 #4 - 4
+```
+
+
 
 
 
