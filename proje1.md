@@ -21,7 +21,7 @@ degisiklikler yapiniz.
 #Duzeltmeler
 
 * PDF'deki `Ornegin KatalanSayisi(10) ifadesi 4862 degerinidondurecektir.` ifadesinin `Ornegin KatalanSayisi(9) ifadesi 4862 degerinidondurecektir.` seklinde degistirilmesi gerekmektedir.
-* `public static int ToplaPalindrome6()` olarak verilen ToplaPalindrome6 metod imzasi `public static long ToplaPalindrome6()` olarak degistirilmistir. Bu Degisiklik iki dilin (C# ve java) taslak kodlarinda da uygulanmalidir. 
+* `public static int ToplaPalindrome6()` olarak verilen ToplaPalindrome6 metod imzasi `public static long ToplaPalindrome6()` olarak degistirilmistir. Bu Degisiklik iki dilin (C# ve Java) taslak kodlarinda da uygulanmalidir. 
 
 
 
