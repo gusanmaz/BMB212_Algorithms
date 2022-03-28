@@ -40,7 +40,7 @@ java Main 3 #Derlenmis programi 6 degeri ile calistirma
 6 #Program Ciktisi
 ```
 
-### Metin Dosyasindaki Degerleri Diziye Aktarma
+# Metin Dosyasindaki Degerleri Diziye Aktarma
 
 Eliminiz altinda `liste.txt' isimli bir metin dosyasi olsun ve bu dosyada tam sayilar saklansin. Tam sayilar birbirinden bosluk (space) karakteri ile ayrilsin. Ornegin liste.txt dosyamizin icerigi asagidaki gibi olabilir.
 
@@ -158,7 +158,9 @@ java Main.class listem.txt #Derlenmis programi listem.txt argumani ile calistirm
 
 Bu odevleri kodlayabilmeniz icin `ReadIntArrayFromFile` metodunu kullanmaniz gerekmektedir. Sablon kodlarda size hazir verilen bu metodun kodlari ile oynamayiniz ve herhangi bir degisiklik yapmayiniz!
 
-* [Odev4 DiziCarpim](https://classroom.github.com/a/Y5yCjGxG) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilarin carpimini ekrana yazdiran bir program yaziniz. Metin dosyasi bos bir dosya ise (icinde hic tamsayi bulunmazsa program ekrana 1 (carpma isleminin etkisiz elemani) yazdirmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+# [Odev4 DiziCarpim](https://classroom.github.com/a/Y5yCjGxG) 
+
+Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilarin carpimini ekrana yazdiran bir program yaziniz. Metin dosyasi bos bir dosya ise (icinde hic tamsayi bulunmazsa program ekrana 1 (carpma isleminin etkisiz elemani) yazdirmalidir. ***Son gonderim tarihi: 3 Nisan 2022 23:00***
 
 ```bash
 cat list.txt
@@ -184,7 +186,9 @@ java Main
 1 # 1 carpma isleminin etkisiz elemanidir.
 ```
 
-* [Odev5 DiziCiftOrtalama](https://classroom.github.com/a/hpXYd1dN) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan cift olanlarin ortalamasini ekrana yazdiran bir program yaziniz. Listede cift sayi yoksa ortalama 0 olacagi icin ekrana sifir yazdirilmalidir. Tam sayilarin ortalamasi rasyonel sayi (double) cikabilir. Programiniz kodlarken bu durumu goz onunde bulundurunuz! ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+# [Odev5 DiziCiftOrtalama](https://classroom.github.com/a/hpXYd1dN) 
+
+Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan cift olanlarin ortalamasini ekrana yazdiran bir program yaziniz. Listede cift sayi yoksa ortalama 0 olacagi icin ekrana sifir yazdirilmalidir. Tam sayilarin ortalamasi rasyonel sayi (double) cikabilir. Programiniz kodlarken bu durumu goz onunde bulundurunuz! ***Son gonderim tarihi: 3 Nisan 2022 23:00***
 
 ```bash
 cat a.txt
@@ -213,7 +217,9 @@ java Main
 4.666
 ```
 
-* [Odev6 DiziFark](https://classroom.github.com/a/Kw0B3ymL) Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan en buyugu ile en kucugu arasindaki farki `max - min` ekran yazdiran bir program yaziniz. Dosyadaki en kucuk ve en buyuk sayi ayni sayi program ekrana 0 yazdirmalidir. Ayni sekilde arguman olarak alinan dosyada herhangi bir sayi bulunmuyorsa program ekrana 0 yazdirmalidir.  ***Son gonderim tarihi: 3 Nisan 2022 23:00***
+# [Odev6 DiziFark](https://classroom.github.com/a/Kw0B3ymL) 
+
+Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri ile birbirlerin ayrildigi bir metin dosyasinin konumunu (path, yol, dosya ismi) alan ve bu dosyadaki sayilardan en buyugu ile en kucugu arasindaki farki `max - min` ekran yazdiran bir program yaziniz. Dosyadaki en kucuk ve en buyuk sayi ayni sayi program ekrana 0 yazdirmalidir. Ayni sekilde arguman olarak alinan dosyada herhangi bir sayi bulunmuyorsa program ekrana 0 yazdirmalidir.  ***Son gonderim tarihi: 3 Nisan 2022 23:00***
 
 ```bash
 cat a.txt
