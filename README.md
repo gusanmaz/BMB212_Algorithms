@@ -6,7 +6,7 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 
 ### Instructor
 
-Ars. Gor. Guvenc Usanmaz
+Ars. Gor. Güvenç Usanmaz
 
 Oda: B207
 
