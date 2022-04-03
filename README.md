@@ -291,7 +291,7 @@ Bu odevleri kodlayabilmeniz icin `ReadIntArrayFromFile` metodunu kullanmaniz ger
 cat list.txt
 1 5 6 9 9 -3
 javac Main.java
-java Main 
+java Main list.txt
 -7290
 ```
 
@@ -299,7 +299,7 @@ java Main
 cat deneme.txt
 1 1 1 -1 1 1 8 -4 9   2 2 1
 javac Main.java
-java Main 
+java Main deneme.txt
 1152
 ```
 
@@ -307,7 +307,7 @@ java Main
 cat deneme3.txt
      #deneme3.txt dosyasinda sadece bosluk karakterleri var. 
 javac Main.java
-java Main 
+java Main deneme3.txt
 1 # 1 carpma isleminin etkisiz elemanidir.
 ```
 
@@ -317,7 +317,7 @@ java Main
 cat a.txt
 1 4 6 9 9 -3
 javac Main.java
-java Main 
+java Main a.txt
 5
 ```
 
@@ -327,7 +327,7 @@ java Main
 cat deneme.txt
 0 0 0 0 1 1 8 -4 9 2 0 0
 javac Main.java
-java Main 
+java Main deneme.txt
 0.666
 ```
 
@@ -336,7 +336,7 @@ java Main
 cat cift.txt
 1 6 4 4
 javac Main.java
-java Main 
+java Main cift.txt
 4.666
 ```
 
@@ -346,7 +346,7 @@ java Main
 cat a.txt
 1 4 6 9 9 -3
 javac Main.java
-java Main 
+java Main a.txt
 12 #9 - (-3)
 ```
 
@@ -356,7 +356,7 @@ java Main
 cat deneme.txt
 1 1 6 7 5 8 8 8 1 
 javac Main.java
-java Main 
+java Main deneme.txt
 7 # 8 - 1
 ```
 
@@ -365,7 +365,7 @@ java Main
 cat cift.txt
 4 4 4 4 4
 javac Main.java
-java Main 
+java Main cift.txt
 0 #4 - 4
 ```
 
