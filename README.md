@@ -369,7 +369,12 @@ java Main cift.txt
 0 #4 - 4
 ```
 
+### Vize Uygulama Sorulari ve Cozumleri
 
+* [Gunduz Sorusu](https://gist.github.com/gusanmaz/1d113e4ce797bd9504531e3621fbef76)
+* [Gunduz Cozumu](https://gist.github.com/gusanmaz/848659b167877875ed00c931e0e7fc95)
+* [Gece Sorusu](https://gist.github.com/gusanmaz/b930c94bc2170bc2a78719054b6e81c2)
+* [Gece Cozumu](https://gist.github.com/gusanmaz/5c2ca4dfd2e4da377dbb44ae33519b40)
 
 
 
