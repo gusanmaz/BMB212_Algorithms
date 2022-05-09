@@ -376,6 +376,12 @@ java Main cift.txt
 * [Gece Sorusu](https://gist.github.com/gusanmaz/b930c94bc2170bc2a78719054b6e81c2)
 * [Gece Cozumu](https://gist.github.com/gusanmaz/5c2ca4dfd2e4da377dbb44ae33519b40)
 
+### 9 Mayis 2022 (Odev ve Proje Degerlendirmeleri)
+
+* 4., 5. ve 5. odev ile 1. 2. proje gonderimleriniz degerlendirilmistir. 
+* 1., 2. ve 3. odev ile ilgili not degerlendirme tablolari guncellenmistir.
+* [Notlariniz gormek icin tiklayiniz!](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/grades.md)
+
 
 
 
