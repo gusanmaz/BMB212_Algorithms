@@ -56,6 +56,8 @@ Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir
 
 * Son 2 test (Test 41, Test 42) 10 puan diger testler 2 puan degerindedir.
 
+* Test islemini kolaylastirmak adina C# kodlari kodun anlaminda bir degisiklik yapilmadan Java koduna cevrilmis ve testler bu ceviri kodlar uzerinde uygulanmistir. Odeve ait PDF dokumaninda String fonksiyonlari kullanilmamasi istenmistir. C#'da bu String metodlari kullanilarak kodlanan metodlar degerlendirmeye alinmamistir.
+
 ### Proje 2
 
 **Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
