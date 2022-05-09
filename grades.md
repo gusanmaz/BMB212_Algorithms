@@ -29,13 +29,15 @@
 
 **Gonderdiginiz kodu  Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
 
+* Uygulanan her test 10 puan degerindedir.
+
 * [Ödev 4 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw4_results.html)
 * [Ödev 5 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw5_results.html)
 * [Ödev 6 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw6_results.html)
 
 Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir.
 
-* list1.txt: `       `
+* list1.txt:  `       `
 * list2.txt: `8      `
 * list3.txt: `0      `
 * list4.txt: `-9 4 5 4 543 32 1`
@@ -60,7 +62,7 @@ Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir
 
 * [Proje 2 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/p2_results.html)
 
-* Ilk 3 test (Test 1, Test 2, Tes3) 10 puan diger testler 5 puan degerindedir.
+* Ilk 3 test (Test 1, Test 2, Test 3) 10 puan diger testler 5 puan degerindedir.
 
 Bu projeyi degerlendirilmek icin hazirlanan `Main.java` dosyasinin kaynak kodlarini asagida gorebilirsiniz. Projeniz derlenmesi icin projenizdeki
 `Main.java` dosyasinin icerigi asagidaki `Main.java` dosyasinin icerigi ile degistirilmistir. Not tablosundaki test numaralari uzerindeki test komutlarini
