@@ -44,7 +44,7 @@ Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir
 * list7.txt: `10    56  67 90 90`
 * list8.txt: `89 30 12 14 16   88`
 * list9.txt: `88   888  888 8`
-* list10.txt `12345 907`
+* list10.txt: `12345 907`
 
 ### Proje 1
 
