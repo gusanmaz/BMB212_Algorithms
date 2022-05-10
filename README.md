@@ -4,7 +4,7 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 
 # DUYURU
 
-![https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/tub_hackathon.png](tub_hackathon)
+![tub_hackathon](http://cmf-bm.web.nku.edu.tr/T%C3%9CBHackathon2022Yar%C4%B1%C5%9Fmas%C4%B1/duyuruayrinti/m/0/38723/78)
 
 [Ayrintili Bilgi icin tiklayiniz](http://cmf-bm.web.nku.edu.tr/T%C3%9CBHackathon2022Yar%C4%B1%C5%9Fmas%C4%B1/duyuruayrinti/m/0/38723/78)
 
