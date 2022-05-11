@@ -10011,7 +10011,7 @@ public class LinkedList &#123;
   // bir metod tanimlayip PrintReverse metodu icinde tanimlamis oldugunuz bu metodu kullanabilirsiniz.
 
   public void PrintReverse&#40;&#41; &#123;
-    var reversed = ReverseListRecursive&#40;head&#41;;
+    Node reversed = ReverseListRecursive&#40;head&#41;;
     Print&#40;reversed&#41;;
   &#125;
 
@@ -10075,10 +10075,10 @@ public class LinkedList &#123;
   // siralandigi bir bagli liste dondurur.
 
   public static LinkedList MergeSortedLists&#40;LinkedList m, LinkedList n&#41; &#123;
-    var result = new ArrayList&lt;Integer&gt;&#40;&#41;;
+    ArrayList&lt;Integer&gt; result = new ArrayList&lt;Integer&gt;&#40;&#41;;
 
-    var list1 = m.head;
-    var list2 = n.head;
+    Node list1 = m.head;
+    Node list2 = n.head;
 
     while &#40;list1 != null || list2 != null&#41; &#123;
       if &#40;list1 == null&#41; &#123;
@@ -10101,6 +10101,7 @@ public class LinkedList &#123;
     &#125;
 
     int&#91;&#93; arr = result.stream&#40;&#41;.mapToInt&#40;i -&gt; i&#41;.toArray&#40;&#41;;
+    //int&#91;&#93; arr = Ints.toArray&#40;result&#41;;
 
     return new LinkedList&#40;arr&#41;;
   &#125;
@@ -10131,77 +10132,77 @@ public class Node &#123;
 `)">E********L</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
-">❌</td>
+StdErr: 
+">✅</td>
 <td title="Expected Output: 19
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 19
+StdErr: 
+">✅</td>
 <td title="Expected Output: 456
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 456
+StdErr: 
+">✅</td>
 <td title="Expected Output: 382
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 382
+StdErr: 
+">✅</td>
 <td title="Expected Output: true
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: true
+StdErr: 
+">✅</td>
 <td title="Expected Output: false
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: false
+StdErr: 
+">✅</td>
 <td title="Expected Output: true
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: true
+StdErr: 
+">✅</td>
 <td title="Expected Output: true
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: true
+StdErr: 
+">✅</td>
 <td title="Expected Output: true
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: true
+StdErr: 
+">✅</td>
 <td title="Expected Output: | -1 | --&gt; | 1 | --&gt; | 4 | --&gt; | 6 | --&gt; | 7 | --&gt; | 8 | --&gt; | 9 | --&gt; | 10 | --&gt; | 11 | --&gt; | 14 | --&gt; | 15 | --&gt; | 19 | --&gt; |NULL|
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: | -1 | --&gt; | 1 | --&gt; | 4 | --&gt; | 6 | --&gt; | 7 | --&gt; | 8 | --&gt; | 9 | --&gt; | 10 | --&gt; | 11 | --&gt; | 14 | --&gt; | 15 | --&gt; | 19 | --&gt; |NULL|
+StdErr: 
+">✅</td>
 <td title="Expected Output: | 1 | --&gt; | 2 | --&gt; | 3 | --&gt; | 4 | --&gt; | 6 | --&gt; |NULL|
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: | 1 | --&gt; | 2 | --&gt; | 3 | --&gt; | 4 | --&gt; | 6 | --&gt; |NULL|
+StdErr: 
+">✅</td>
 <td title="Expected Output: | 2 | --&gt; | 4 | --&gt; | 4 | --&gt; | 5 | --&gt; | 5 | --&gt; | 6 | --&gt; |NULL|
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: | 2 | --&gt; | 4 | --&gt; | 4 | --&gt; | 5 | --&gt; | 5 | --&gt; | 6 | --&gt; |NULL|
+StdErr: 
+">✅</td>
 <td title="Expected Output: | 2 | --&gt; | 4 | --&gt; | 9 | --&gt; |NULL|
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: | 2 | --&gt; | 4 | --&gt; | 9 | --&gt; |NULL|
+StdErr: 
+">✅</td>
 <td title="Expected Output: | 2 | --&gt; |NULL|
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: | 2 | --&gt; |NULL|
+StdErr: 
+">✅</td>
 <td title="Expected Output: | 2 | --&gt; |NULL|
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: | 2 | --&gt; |NULL|
+StdErr: 
+">✅</td>
 <td title="Expected Output: |NULL| &lt;-- | -98 | &lt;-- | 211 | &lt;-- | 62 | &lt;-- | 53 | &lt;-- | 64 | &lt;-- | 25 | &lt;-- | 64 | &lt;-- | 1 |
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: | -98 | --&gt; | 211 | --&gt; | 62 | --&gt; | 53 | --&gt; | 64 | --&gt; | 25 | --&gt; | 64 | --&gt; | 1 | --&gt; |NULL|
+StdErr: 
 ">❌</td>
 <td title="Expected Output: |NULL| &lt;-- | 6 | &lt;-- | 2 | &lt;-- | 6 | &lt;-- | 5 |
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: | 6 | --&gt; | 2 | --&gt; | 6 | --&gt; | 5 | --&gt; |NULL|
+StdErr: 
 ">❌</td>
 <td title="Expected Output: |NULL| &lt;-- | 5 |
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: | 5 | --&gt; |NULL|
+StdErr: 
 ">❌</td>
-<td>0</td>
+<td>85</td>
 </tr><tr><td>1********8</td>
 <td>M******N A******Ş</td>
 <td onclick="window.alert(`No code is submitted!`)">N*A</td>
