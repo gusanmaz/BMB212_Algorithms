@@ -1,7 +1,0 @@
-Ogrenci Sayisi: 145
-Gonderim Sayisi: 50
-Derlenen Gonderim Sayisi: 20
-Ortalama: 11
-Ortalama (Gonderim Yapanlar Arasi): 34
-Ortalama (Kodu Derlenenler Arasi): 86
-En yuksek not: 100
