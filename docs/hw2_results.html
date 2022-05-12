@@ -2337,7 +2337,18 @@ public class Main &#123;
 `)">A*************İ</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:3: error: cannot find symbol
+    Scanner scan = new Scanner(System.in);
+    ^
+  symbol:   class Scanner
+  location: class Main
+Main.java:3: error: cannot find symbol
+    Scanner scan = new Scanner(System.in);
+                       ^
+  symbol:   class Scanner
+  location: class Main
+2 errors
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -5121,7 +5132,11 @@ public class EnKucuk_Sayı &#123;
 `)">B***********Z</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:3: error: class EnKucuk_Sayı is public, should be declared in a file named EnKucuk_Sayı.java
+public class EnKucuk_Sayı {
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -7417,7 +7432,11 @@ public class Enkucuk_Sayi_hesaplama &#123;
 `)">H*************2</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:3: error: class Enkucuk_Sayi_hesaplama is public, should be declared in a file named Enkucuk_Sayi_hesaplama.java
+public class Enkucuk_Sayi_hesaplama {
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -12535,7 +12554,18 @@ public class Main &#123;
 `)">İ*********A</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:20: error: &lt;identifier&gt; expected
+    System.out.println(&#34;en kucuk sayi= &#34;+ enkucuk);
+                      ^
+Main.java:20: error: illegal start of type
+    System.out.println(&#34;en kucuk sayi= &#34;+ enkucuk);
+                       ^
+Main.java:67: error: unclosed comment
+/*
+^
+Main.java:87: error: reached end of file while parsing
+4 errors
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -13325,7 +13355,18 @@ sc.close&#40;&#41;;
 `)">M*********M</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:4: error: cannot find symbol
+        Scanner sc = new Scanner(System.in);
+        ^
+  symbol:   class Scanner
+  location: class Main
+Main.java:4: error: cannot find symbol
+        Scanner sc = new Scanner(System.in);
+                         ^
+  symbol:   class Scanner
+  location: class Main
+2 errors
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -13655,7 +13696,11 @@ public class Min3&#123;
 `)">H*******K</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:8: error: class Min3 is public, should be declared in a file named Min3.java
+public class Min3{
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -13770,7 +13815,14 @@ public class Main &#123;
 `)">F*******K</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:18: error: &#39;;&#39; expected
+        }elseif (b&lt;c){
+                     ^
+Main.java:20: error: &#39;else&#39; without &#39;if&#39;
+        else { enKucuk = c; }
+        ^
+2 errors
+
 ">❌</td>
 <td title="Expected Output: 2
 StdOut: N/A
@@ -15031,5 +15083,5 @@ StdOut:
 StdErr: 
 ">❌</td>
 <td>0</td>
-</tr></table></body>
+</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 292</li><li>Gonderim Sayisi: 140</li><li>Derlenen Gonderim Sayisi: 126</li><li>Ortalama: 23</li><li>Ortalama (Gonderim Yapanlar Arasi): 48</li><li>Ortalama (Kodu Derlenenler Arasi): 53</li><li>En yuksek not: 100</li></ul></body>
 </html>

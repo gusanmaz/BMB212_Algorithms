@@ -359,7 +359,26 @@ public class Main &#123;
 `)">O********7</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:3: error: &#39;.class&#39; expected
+        int num1 = Integer.parseint(int(args[0]));
+                                       ^
+Main.java:3: error: not a statement
+        int num1 = Integer.parseint(int(args[0]));
+                                            ^
+Main.java:3: error: &#39;;&#39; expected
+        int num1 = Integer.parseint(int(args[0]));
+                                               ^
+Main.java:4: error: &#39;.class&#39; expected
+        int num2= Integer.parseint(int(args[1]));
+                                      ^
+Main.java:4: error: not a statement
+        int num2= Integer.parseint(int(args[1]));
+                                           ^
+Main.java:4: error: &#39;;&#39; expected
+        int num2= Integer.parseint(int(args[1]));
+                                              ^
+6 errors
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -2067,7 +2086,20 @@ else&#123;
 `)">E************N</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:5: error: &#39;;&#39; expected
+ int num3 Integer.parseInt ( args [ 2 ] ) ;
+         ^
+Main.java:9: error: illegal start of expression
+else if ( ) 
+          ^
+Main.java:10: error: &#39;else&#39; without &#39;if&#39;
+else{
+^
+Main.java:13: error: reached end of file while parsing
+ }
+  ^
+4 errors
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -4091,7 +4123,10 @@ public class Main &#123;
 `)">İ********İ</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 2
+StdErr: error: file not found: Main.java
+Usage: javac &lt;options&gt; &lt;source files&gt;
+use --help for a list of possible options
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -5117,7 +5152,26 @@ public class Main &#123;
 `)">B***********Z</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:7: error: illegal start of expression
+        public int EnKucukSayi(int a,int b){
+        ^
+Main.java:20: error: &lt;identifier&gt; expected
+        Syste.out.println(&#34;2 sayi giriniz:&#34;);
+                         ^
+Main.java:20: error: illegal start of type
+        Syste.out.println(&#34;2 sayi giriniz:&#34;);
+                          ^
+Main.java:26: error: &lt;identifier&gt; expected
+        System.out.println(&#34; Daha kucuk olan sayi: &#34; + EnKucukSayi(sayi1,sayi2));
+                          ^
+Main.java:26: error: illegal start of type
+        System.out.println(&#34; Daha kucuk olan sayi: &#34; + EnKucukSayi(sayi1,sayi2));
+                           ^
+Main.java:30: error: class, interface, enum, or record expected
+}
+^
+6 errors
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -7360,7 +7414,11 @@ public class Enkucuk_Sayi_hesaplama &#123;
 `)">H*************2</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:3: error: class Enkucuk_Sayi_hesaplama is public, should be declared in a file named Enkucuk_Sayi_hesaplama.java
+public class Enkucuk_Sayi_hesaplama {
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -11148,7 +11206,14 @@ public class Main &#123;
 `)">Y********R</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:9: error: not a statement
+       else (a &lt; b){
+            ^
+Main.java:9: error: &#39;;&#39; expected
+       else (a &lt; b){
+                   ^
+2 errors
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -12338,7 +12403,14 @@ public class Main &#123;
 `)">İ*********A</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:14: error: &lt;identifier&gt; expected
+        System.out.println(+enkucuk);
+                          ^
+Main.java:14: error: illegal start of type
+        System.out.println(+enkucuk);
+                           ^
+2 errors
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -13093,7 +13165,18 @@ System.out.println&#40;a + &#34; eşittir &#34; + b&#41;;
 `)">M*********M</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:10: error: cannot find symbol
+else if(s1 &lt; s2){
+        ^
+  symbol:   variable s1
+  location: class Main
+Main.java:10: error: cannot find symbol
+else if(s1 &lt; s2){
+             ^
+  symbol:   variable s2
+  location: class Main
+2 errors
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -13412,7 +13495,11 @@ public class Min2&#123;
 `)">H*******K</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:9: error: class Min2 is public, should be declared in a file named Min2.java
+public class Min2{
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: -23
 StdOut: N/A
@@ -14787,5 +14874,5 @@ StdOut:
 StdErr: 
 ">❌</td>
 <td>0</td>
-</tr></table></body>
+</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 146</li><li>Gonderim Sayisi: 81</li><li>Derlenen Gonderim Sayisi: 72</li><li>Ortalama: 26</li><li>Ortalama (Gonderim Yapanlar Arasi): 47</li><li>Ortalama (Kodu Derlenenler Arasi): 53</li><li>En yuksek not: 100</li></ul></body>
 </html>

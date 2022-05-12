@@ -11,34 +11,34 @@
 <th> Gönderim </th>
 <th> Compilation </th>
 <th title="Test Komutu: Main list1.txt
-İstenen Çıktı:0.0
+İstenen Çıktı: 0.0
 "> Test 1 </th>
 <th title="Test Komutu: Main list2.txt
-İstenen Çıktı:8.0
+İstenen Çıktı: 8.0
 "> Test 2 </th>
 <th title="Test Komutu: Main list3.txt
-İstenen Çıktı:0.0
+İstenen Çıktı: 0.0
 "> Test 3 </th>
 <th title="Test Komutu: Main list4.txt
-İstenen Çıktı:13.333333333333334
+İstenen Çıktı: 13.333333333333334
 "> Test 4 </th>
 <th title="Test Komutu: Main list5.txt
-İstenen Çıktı:6.0
+İstenen Çıktı: 6.0
 "> Test 5 </th>
 <th title="Test Komutu: Main list6.txt
-İstenen Çıktı:33.333333333333336
+İstenen Çıktı: 33.333333333333336
 "> Test 6 </th>
 <th title="Test Komutu: Main list7.txt
-İstenen Çıktı:61.5
+İstenen Çıktı: 61.5
 "> Test 7 </th>
 <th title="Test Komutu: Main list8.txt
-İstenen Çıktı:32.0
+İstenen Çıktı: 32.0
 "> Test 8 </th>
 <th title="Test Komutu: Main list9.txt
-İstenen Çıktı:468.0
+İstenen Çıktı: 468.0
 "> Test 9 </th>
 <th title="Test Komutu: Main list10.txt
-İstenen Çıktı:0.0
+İstenen Çıktı: 0.0
 "> Test 10 </th>
 <th> Toplam Puan </th>
 </tr><tr><td>1********4</td>
@@ -193,7 +193,47 @@ public class Main &#123;
 `)">G***********N</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:8: error: illegal start of expression
+       public static double ArrayEvenAverage(int[] arr) {
+       ^
+Main.java:24: error: class, interface, enum, or record expected
+    public static int[] ReadIntArrayFromFile(String path){
+                  ^
+Main.java:26: error: class, interface, enum, or record expected
+        Scanner sc;
+        ^
+Main.java:27: error: class, interface, enum, or record expected
+        try {
+        ^
+Main.java:29: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:32: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:36: error: class, interface, enum, or record expected
+            int num = Integer.parseInt(token);
+            ^
+Main.java:37: error: class, interface, enum, or record expected
+            intList.add(num);
+            ^
+Main.java:38: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:41: error: class, interface, enum, or record expected
+        int ind = 0;
+        ^
+Main.java:42: error: class, interface, enum, or record expected
+        for (Integer v:intList){
+        ^
+Main.java:44: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:46: error: class, interface, enum, or record expected
+    }
+    ^
+13 errors
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -534,7 +574,11 @@ public class Main &#123;
 `)">D*******İ</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:8: error: &#39;;&#39; expected
+        System.out.println(&#34;Yapamadım Hocam&#34;)
+                                             ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -845,7 +889,47 @@ public class Main &#123;
 `)">N********Y</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:8: error: illegal start of expression
+       public static double ArrayEvenAverage(int[] arr) {
+       ^
+Main.java:24: error: class, interface, enum, or record expected
+    public static int[] ReadIntArrayFromFile(String path){
+                  ^
+Main.java:26: error: class, interface, enum, or record expected
+        Scanner sc;
+        ^
+Main.java:27: error: class, interface, enum, or record expected
+        try {
+        ^
+Main.java:29: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:32: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:36: error: class, interface, enum, or record expected
+            int num = Integer.parseInt(token);
+            ^
+Main.java:37: error: class, interface, enum, or record expected
+            intList.add(num);
+            ^
+Main.java:38: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:41: error: class, interface, enum, or record expected
+        int ind = 0;
+        ^
+Main.java:42: error: class, interface, enum, or record expected
+        for (Integer v:intList){
+        ^
+Main.java:44: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:46: error: class, interface, enum, or record expected
+    }
+    ^
+13 errors
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -1147,49 +1231,49 @@ public class Main &#123;
 `)">B*****V</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
-">❌</td>
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: NaN
+StdErr: 
 ">❌</td>
 <td title="Expected Output: 8.0
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 8.0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0.0
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 0.0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 13.333333333333334
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 13.333333333333334
+StdErr: 
+">✅</td>
 <td title="Expected Output: 6.0
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 6.0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 33.333333333333336
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 33.333333333333336
+StdErr: 
+">✅</td>
 <td title="Expected Output: 61.5
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 61.5
+StdErr: 
+">✅</td>
 <td title="Expected Output: 32.0
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 32.0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 468.0
-StdOut: N/A
-StdErr: Compilation Error
-">❌</td>
+StdOut: 468.0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: NaN
+StdErr: 
 ">❌</td>
-<td>0</td>
+<td>80</td>
 </tr><tr><td>1********0</td>
 <td>Y***S Ç****K</td>
 <td onclick="window.alert(`No code is submitted!`)">N*A</td>
@@ -1437,7 +1521,44 @@ public class Main &#123;
 `)">E*****R</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:23: error: class, interface, enum, or record expected
+    public static int[] ReadIntArrayFromFile(String path){
+                  ^
+Main.java:25: error: class, interface, enum, or record expected
+        Scanner sc;
+        ^
+Main.java:26: error: class, interface, enum, or record expected
+        try {
+        ^
+Main.java:28: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:31: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:35: error: class, interface, enum, or record expected
+            int num = Integer.parseInt(token);
+            ^
+Main.java:36: error: class, interface, enum, or record expected
+            intList.add(num);
+            ^
+Main.java:37: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:40: error: class, interface, enum, or record expected
+        int ind = 0;
+        ^
+Main.java:41: error: class, interface, enum, or record expected
+        for (Integer v:intList){
+        ^
+Main.java:43: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:45: error: class, interface, enum, or record expected
+    }
+    ^
+12 errors
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -2025,7 +2146,11 @@ public class main &#123;
 `)">M********N</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:4: error: class main is public, should be declared in a file named main.java
+public class main {
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -2611,7 +2736,47 @@ public class Main &#123;
 `)">C******E</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:8: error: illegal start of expression
+       public static double ArrayEvenAverage(int[] arr) {
+       ^
+Main.java:24: error: class, interface, enum, or record expected
+    public static int[] ReadIntArrayFromFile(String path){
+                  ^
+Main.java:26: error: class, interface, enum, or record expected
+        Scanner sc;
+        ^
+Main.java:27: error: class, interface, enum, or record expected
+        try {
+        ^
+Main.java:29: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:32: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:36: error: class, interface, enum, or record expected
+            int num = Integer.parseInt(token);
+            ^
+Main.java:37: error: class, interface, enum, or record expected
+            intList.add(num);
+            ^
+Main.java:38: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:41: error: class, interface, enum, or record expected
+        int ind = 0;
+        ^
+Main.java:42: error: class, interface, enum, or record expected
+        for (Integer v:intList){
+        ^
+Main.java:44: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:46: error: class, interface, enum, or record expected
+    }
+    ^
+13 errors
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -3123,7 +3288,11 @@ public class Main &#123;
 `)">S******O</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:26: error: illegal start of expression
+    public static boolean isEven(int a){
+    ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -4283,7 +4452,11 @@ public class odev3 &#123;
 `)">M*****K</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:4: error: class odev3 is public, should be declared in a file named odev3.java
+public class odev3 {
+       ^
+1 error
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -4863,7 +5036,10 @@ StdErr:
 <td onclick="window.alert(`No Java source files found!`)">2*********8</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 2
+StdErr: error: file not found: Main.java
+Usage: javac &lt;options&gt; &lt;source files&gt;
+use --help for a list of possible options
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -5106,7 +5282,65 @@ public class Main &#123;
 `)">H*************2</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:6: error: illegal start of type
+	       if (dizi.length==0) {
+	       ^
+Main.java:6: error: &lt;identifier&gt; expected
+	       if (dizi.length==0) {
+	                      ^
+Main.java:11: error: illegal start of type
+	       for (int i = 0; i &lt; dizi.length; i++){
+	       ^
+Main.java:11: error: &gt; expected
+	       for (int i = 0; i &lt; dizi.length; i++){
+	                                      ^
+Main.java:11: error: &lt;identifier&gt; expected
+	       for (int i = 0; i &lt; dizi.length; i++){
+	                                         ^
+Main.java:19: error: &lt;identifier&gt; expected
+	       System.out.println(sonuc);
+	                         ^
+Main.java:19: error: &lt;identifier&gt; expected
+	       System.out.println(sonuc);
+	                               ^
+Main.java:24: error: class, interface, enum, or record expected
+    public static int[] ReadIntArrayFromFile(String path){
+                  ^
+Main.java:26: error: class, interface, enum, or record expected
+        Scanner sc;
+        ^
+Main.java:27: error: class, interface, enum, or record expected
+        try {
+        ^
+Main.java:29: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:32: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:36: error: class, interface, enum, or record expected
+            int num = Integer.parseInt(token);
+            ^
+Main.java:37: error: class, interface, enum, or record expected
+            intList.add(num);
+            ^
+Main.java:38: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:41: error: class, interface, enum, or record expected
+        int ind = 0;
+        ^
+Main.java:42: error: class, interface, enum, or record expected
+        for (Integer v:intList){
+        ^
+Main.java:44: error: class, interface, enum, or record expected
+        }
+        ^
+Main.java:46: error: class, interface, enum, or record expected
+    }
+    ^
+19 errors
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -6153,47 +6387,47 @@ public class Main &#123;
 `)">O**********N</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
-">❌</td>
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 8.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 0.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 13.333333333333334
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 6.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 33.333333333333336
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 61.5
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 32.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 468.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 0.0
-StdOut: N/A
-StdErr: Compilation Error
+StdOut: 
+StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 ">❌</td>
 <td>0</td>
 </tr><tr><td>2********1</td>
@@ -7376,7 +7610,17 @@ public class Main &#123;
 `)">D*********S</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 1
+StdErr: Main.java:8: error: &#39;;&#39; expected
+        int cift = 0
+                    ^
+Main.java:11: error: &#39;;&#39; expected
+                cift++
+                      ^
+Main.java:12: error: &#39;;&#39; expected
+                cortalama += arr[i]
+                                   ^
+3 errors
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -7842,7 +8086,10 @@ StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
 <td onclick="window.alert(`No Java source files found!`)">O*******E</td>
 <td>✅</td>
 <td title="StdOut: 
-StdErr: exit status 2
+StdErr: error: file not found: Main.java
+Usage: javac &lt;options&gt; &lt;source files&gt;
+use --help for a list of possible options
+
 ">❌</td>
 <td title="Expected Output: 0.0
 StdOut: N/A
@@ -10118,5 +10365,5 @@ StdOut:
 StdErr: 
 ">❌</td>
 <td>0</td>
-</tr></table></body>
+</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 145</li><li>Gonderim Sayisi: 62</li><li>Derlenen Gonderim Sayisi: 50</li><li>Ortalama: 18</li><li>Ortalama (Gonderim Yapanlar Arasi): 44</li><li>Ortalama (Kodu Derlenenler Arasi): 55</li><li>En yuksek not: 100</li></ul></body>
 </html>
