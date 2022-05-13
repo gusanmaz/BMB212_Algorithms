@@ -22,8 +22,8 @@
 ### Odev1, Odev2 ve Odev3
 
 * [Ödev 1 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw1_results.html)
-* [Ödev 2 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw2_results.html)
-* [Ödev 3 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw3_results.html)
+* [Ödev 2 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw2_results.html)
+* [Ödev 3 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw3_results.html)
 
 ### Odev4, Odev5 ve Odev6
 
@@ -31,9 +31,9 @@
 
 * Uygulanan her test 10 puan degerindedir.
 
-* [Ödev 4 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw4_results.html)
-* [Ödev 5 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw5_results.html)
-* [Ödev 6 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw6_results.html)
+* [Ödev 4 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw4_results.html)
+* [Ödev 5 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw5_results.html)
+* [Ödev 6 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw6_results.html)
 
 Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir.
 
@@ -52,7 +52,7 @@ Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir
 
 **Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
 
-* [Proje 1 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/p1_results.html)
+* [Proje 1 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p1_results.html)
 
 * Son 2 test (Test 41, Test 42) 10 puan diger testler 2 puan degerindedir.
 
@@ -62,7 +62,7 @@ Bu odevlerin degerlendirilmesinde kullanilan metin dosyalari asagida verilmistir
 
 **Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
 
-* [Proje 2 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/p2_results.html)
+* [Proje 2 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p2_results.html)
 
 * Ilk 3 test (Test 1, Test 2, Test 3) 10 puan diger testler 5 puan degerindedir.
 
