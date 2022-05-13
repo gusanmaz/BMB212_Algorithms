@@ -4,7 +4,7 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 
 # DUYURU
 
-![tub_hackathon](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/tub_hackathon.png)
+![tub_hackathon](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/tub_hackathon.png)
 
 [Ayrintili Bilgi icin tiklayiniz](http://cmf-bm.web.nku.edu.tr/T%C3%9CBHackathon2022Yar%C4%B1%C5%9Fmas%C4%B1/duyuruayrinti/m/0/38723/78)
 
@@ -26,13 +26,13 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 2. [Repl.it](https://replit.com/) hesabi acilacak
 3. [Bilgilendirme Formu](https://forms.gle/8AzYpckY7S43QTjM8) doldurulacak
 4. Universite email hesaplari duzenli kontrol edilecek
-5. Bu [repo](https://github.com/gusanmaz/NKU_DS_Course_2022) duzenli kontrol edilecek. Yeni odev ve proje duyurulari buradan ve/veya email yoluyla yapilacak
+5. Bu [repo](https://github.com/gusanmaz/BMB212_Algorithms) duzenli kontrol edilecek. Yeni odev ve proje duyurulari buradan ve/veya email yoluyla yapilacak
 
 ### Odev ve Proje Sayfalari
 
-* [Assignments Page - Odev Duyurulari](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/odevler.md)
-* [Projects Page - Proje Duyurular](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/projeler.md)
-* [Odev ve Proje Notlandirmalari](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/grades.md)
+* [Assignments Page - Odev Duyurulari](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/odevler.md)
+* [Projects Page - Proje Duyurular](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/projeler.md)
+* [Odev ve Proje Notlandirmalari](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/grades.md)
 
 Bu sayfalari duzenli takip etmeniz gerekmektedir. Yeni odev duyurulari, yeni proje duyurulari, daha onceden verilmis proje ve odevlerle ilgili yeni bilgiler/duzeltmeler bu sayfalardan ilan edilecektir.  
 
@@ -54,7 +54,7 @@ Bu sayfalari duzenli takip etmeniz gerekmektedir. Yeni odev duyurulari, yeni pro
 
 ### Git
 
-![Git vs Renaming](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/git_vs_renaming.jpg)
+![Git vs Renaming](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/git_vs_renaming.jpg)
 
 * [Pro Git book](https://git-scm.com/book/en/v2)
 * [Turkce Git 101](https://aliozgur.gitbooks.io/git101/content/)
@@ -87,7 +87,7 @@ Bu sayfalari duzenli takip etmeniz gerekmektedir. Yeni odev duyurulari, yeni pro
 
 ### Debugging - Hata Ayiklama
 
-![Debugging Cat](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/debug_cats.jpeg)
+![Debugging Cat](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/debug_cats.jpeg)
 
 * Break points
 * Step into vs. Step over
@@ -101,7 +101,7 @@ Bu sayfalari duzenli takip etmeniz gerekmektedir. Yeni odev duyurulari, yeni pro
 * [Java Ornek Kodu - Github Gist](https://gist.github.com/gusanmaz/49dae8ffd1b1511e7c394a259dae785d) 
 * [Replit Ornek Kodu](https://replit.com/@GuvencUsanmaz/CommandLineArgsJavaExample1)
 
-![Linux CLI Power](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/images/linux_cli.jpg)
+![Linux CLI Power](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/linux_cli.jpg)
 
 Komut satirindan alinan iki tam sayinin toplamini ekrana yazdiran kod:
 
@@ -386,7 +386,7 @@ java Main cift.txt
 
 * 4., 5. ve 5. odev ile 1. 2. proje gonderimleriniz degerlendirilmistir. 
 * 1., 2. ve 3. odev ile ilgili not degerlendirme tablolari guncellenmistir.
-* [Notlariniz gormek icin tiklayiniz!](https://github.com/gusanmaz/NKU_DS_Course_2022/blob/main/grades.md)
+* [Notlariniz gormek icin tiklayiniz!](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/grades.md)
 
 
 
