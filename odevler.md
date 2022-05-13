@@ -165,7 +165,7 @@ Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri i
 ```bash
 cat list.txt
 1 5 6 9 9 -3
-javac Main.java liste.text
+javac Main.java
 java Main 
 -7290
 ```
