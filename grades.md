@@ -21,7 +21,7 @@
 
 ### Odev1, Odev2 ve Odev3
 
-* [Ödev 1 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw1_results.html)
+* [Ödev 1 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/hw1_results.html)
 * [Ödev 2 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw2_results.html)
 * [Ödev 3 Not Tablosu](https://gusanmaz.github.io/NKU_DS_Course_2022/hw3_results.html)
 
