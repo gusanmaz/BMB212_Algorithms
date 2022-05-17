@@ -597,7 +597,7 @@ Inorder
 PreOrder
 9  4  -100  45  12  100  75  50 
 PostOrder
- -100  4  12  45  50  75  100  9
+-100  4  12  50  75  100  45  9
 true
 false
 true
