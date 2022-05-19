@@ -612,6 +612,10 @@ false
 
 [Proje 5 Github Classroom Davet Linki](https://classroom.github.com/a/TfLcRNa5)
 
+** Son Gonderim (Commit) Tarihi: 29 Mayis 2022 23:59 **
+
+![deadline_meme](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/deadline.jpeg)
+
 * Bu projede `HTMLTree` sinifinda bir HTML dokumanindaki veriler basitlestirilmis olarak saklanabilmektedir. 
 * Bu proje icin HTML dokumanlarini sadece HTML etiketlerinden (taglerinden) olusan dokumanlar olarak varsayaniz.
 * Sizden istenen HTMLTree sinifindaki GETHTML() metodunun islevini yerine getirebilmesi icin `HTMLTree.java` dosyasinda gerekli duzenlemeleri yapmanizdir.
