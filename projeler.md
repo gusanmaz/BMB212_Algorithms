@@ -270,6 +270,8 @@ public class Main {
 
 * [Proje 3 Davet Linki](https://classroom.github.com/a/9wDKu0aQ)
 
+**Son Gonderim (Commit) Tarihi: 22 Mayis 2022 23:59**
+
 Size hazir verilen Stack.java sinifina ait kodlar asagidaki gibidir.
 
 ```java
@@ -397,6 +399,8 @@ r
 # Proje 4
 
 * [Proje 4 Davet Linki](https://classroom.github.com/a/EAfDkZKP)
+
+**Son Gonderim (Commit) Tarihi: 22 Mayis 2022 23:59**
 
 Size hazir verilen `TreeNode.java` dosyasinin icerigi asagidaki gibidir.
 
@@ -612,7 +616,7 @@ false
 
 [Proje 5 Github Classroom Davet Linki](https://classroom.github.com/a/TfLcRNa5)
 
-** Son Gonderim (Commit) Tarihi: 29 Mayis 2022 23:59 **
+**Son Gonderim (Commit) Tarihi: 29 Mayis 2022 23:59**
 
 ![deadline_meme](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/deadline.jpeg)
 
