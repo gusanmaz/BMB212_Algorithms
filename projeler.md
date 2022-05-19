@@ -694,15 +694,15 @@ Printing HTML output for document #4:
 
 ###### `Main.java` altindaki GetHTML4Document2() fonksiyonunda uretilen HTML agaci
 
-![Tree2]([tree2.png](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree2.png))
+![Tree2](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree2.png)
 
 ###### `Main.java` altindaki GetHTML4Document3() fonksiyonunda uretilen HTML agaci
 
-![Tree3]([tree3.png](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree3.png))
+![Tree3](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree3.png)
 
 ###### `Main.java` altindaki GetHTML4Document4() fonksiyonunda uretilen HTML agaci
 
-![Tree1]([tree4.png](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree4.png))
+![Tree4](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree4.png)
 
 ## Proje Kodlari
 
