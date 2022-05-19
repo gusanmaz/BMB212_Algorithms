@@ -619,7 +619,7 @@ false
 
 ## Uyarilar
 
-* Projenizdeki HTMLNode.java dosyasi icinde herhangi bir degisiklik yapmayiniz.
+* Projenizdeki `HTMLNode.java` dosyasi icinde herhangi bir degisiklik yapmayiniz.
 * `HTMLTree.java` dosyasindaki constructor(yapici) kodlar uzerinde herhangi bir degisiklik yapmayiniz.
 * `HTMLTree.java` dosyasindaki sinif degiskeni olan root degiskeninin tanimlandigi satirda herhangi bir oynama yapmayiniz.
 * Yeni bir java uzantili kaynak dosyasi olusturmayiniz.
