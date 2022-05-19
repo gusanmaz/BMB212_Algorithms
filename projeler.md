@@ -606,6 +606,8 @@ false
 
 # Proje 5 (Basit HTML Agaci)
 
+[Proje 5 Github Classroom Davet Linki](https://classroom.github.com/a/TfLcRNa5)
+
 * Bu projede `HTMLTree` sinifinda bir HTML dokumanindaki veriler basitlestirilmis olarak saklanabilmektedir. 
 * Bu proje icin HTML dokumanlarini sadece HTML etiketlerinden (taglerinden) olusan dokumanlar olarak varsayaniz.
 * Sizden istenen HTMLTree sinifindaki GETHTML() metodunun islevini yerine getirebilmesi icin `HTMLTree.java` dosyasinda gerekli duzenlemeleri yapmanizdir.
@@ -692,15 +694,15 @@ Printing HTML output for document #4:
 
 ###### `Main.java` altindaki GetHTML4Document2() fonksiyonunda uretilen HTML agaci
 
-![Tree2](tree2.png)
+![Tree2]([tree2.png](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree2.png))
 
 ###### `Main.java` altindaki GetHTML4Document3() fonksiyonunda uretilen HTML agaci
 
-![Tree3](tree3.png)
+![Tree3]([tree3.png](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree3.png))
 
 ###### `Main.java` altindaki GetHTML4Document4() fonksiyonunda uretilen HTML agaci
 
-![Tree1](tree4.png)
+![Tree1]([tree4.png](https://github.com/gusanmaz/BMB212_HTMLTree/blob/main/tree4.png))
 
 ## Proje Kodlari
 
