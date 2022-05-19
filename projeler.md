@@ -184,7 +184,11 @@ public class LinkedList {
     }
 
     // Bu metod bagli listenin elemanlarini sondan basa dogru sirali okarak ekrana yazdirir.
-    // Bu metodun ciktisi Print metodununun ciktisinin yonu degistirilmis sekli olmalidir.
+    // Bu metodun 
+    
+    
+    
+    Print metodununun ciktisinin yonu degistirilmis sekli olmalidir.
     // Bu metodu kodlamak icin dizi, ArrayList, String metodlari vb. kullanmayiniz.
     // Bu metodu recursive (oz yinelemeli) sekilde yazabilirsiniz. Bu metodu yazmak icin baska
     // bir metod tanimlayip PrintReverse metodu icinde tanimlamis oldugunuz bu metodu kullanabilirsiniz.
@@ -621,15 +625,15 @@ false
 * Yeni bir java uzantili kaynak dosyasi olusturmayiniz.
 * Github'a yukleyeceginiz kodun derlendiginden emin olunuz. Derlenmeyen kodlar 0 puan alacaktir!
 
-## Kodun derlenmesi
+## Kodun Derlenmesi
 
 ```javac HTMLNode.java HTMLTree.java Main.java```
 
-## Kodun calistirilmasi
+## Kodun Calistirilmasi
 
 ```java Main```
 
-## Program ciktisi
+## Program Ciktisi
 
 Size verilen kod Main.java uzerinde degisiklik yapilmadiginda ve `GETHTML()` metodu dogru kodlandiginda asagidaki ciktiyi uretmelidir. Verilen ciktida agactaki her seviyenin etiketlerinin ilgili etiketin bir ustundeki seviyeden 3 karakter sagda basladigina dikkat ediniz. 
 
