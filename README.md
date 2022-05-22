@@ -388,6 +388,10 @@ java Main cift.txt
 * 1., 2. ve 3. odev ile ilgili not degerlendirme tablolari guncellenmistir.
 * [Notlariniz gormek icin tiklayiniz!](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/grades.md)
 
+## Trafik (22 Mayis 2022)
+
+![trafik_22_mayis](images/trafik_22_mayis.png)
+
 
 
 
