@@ -991,19 +991,19 @@ Lord           Nibbler        999         4.00
 
 ###### `Main.java` altindaki tree1 isimli objede temsil edilen ikili arama agaci
 
-![Tree1](tree1.png)
+![Tree1](https://github.com/gusanmaz/BMB212_StudentBST/blob/main/tree1.png)
 
 ###### `Main.java` altindaki tree2 isimli objede temsil edilen ikili arama agaci
 
-![Tree2](tree2.png)
+![Tree2](https://github.com/gusanmaz/BMB212_StudentBST/blob/main/tree2.png)
 
 ###### `Main.java` altindaki tree3 isimli objede temsil edilen ikili arama agaci
 
-![Tree3](tree3.png)
+![Tree3](https://github.com/gusanmaz/BMB212_StudentBST/blob/main/tree3.png)
 
 ###### `Main.java` altindaki tree4 isimli objede temsil edilen ikili arama agaci
 
-![Tree1](tree4.png)
+![Tree4](https://github.com/gusanmaz/BMB212_StudentBST/blob/main/tree4.png)
 
 ## Proje Kodlari
 
