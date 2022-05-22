@@ -8732,14 +8732,43 @@ import java.util.*;
 
 public class Main &#123;
     public static void main&#40;String&#91;&#93; args&#41;&#123;
-       //kodlarinizi buraya yazabilirsiniz. Gerek duyarsaniz yeni metod tanimlari yapabilirsiniz. 
-       // Lutfen tum kodunuzu bu dosya &#40;Main.java&#41; icinde yaziniz.
+       int&#91;&#93; dizi = ReadIntArrayFromFile&#40;args&#91;0&#93;&#41;;
+
+
+      if&#40;dizi.length == 0&#41;&#123;
+         System.out.println&#40;&#34;result:0&#34;&#41;;
+      return;
+        &#125;
+
+        int byk;
+        int kck;
+
+
+        byk = dizi&#91;0&#93;;
+        kck = dizi&#91;0&#93;;
+
+        for &#40;int i = 0; i &lt; dizi.length; i++&#41;&#123;
+            if &#40;dizi&#91;i&#93; &lt; kck&#41; &#123;
+                kck = dizi&#91;i&#93;;
+            &#125;
+        &#125;
+
+        for &#40;int i = 0; i &lt; dizi.length; i++&#41;&#123;
+            if &#40;dizi&#91;i&#93; &gt; byk&#41; &#123;
+                byk = dizi&#91;i&#93;;
+            &#125;
+
+        &#125;
+           System.out.println&#40;byk - kck&#41;;
+
+
     &#125;
-    
-    //Bu metodun kodlari ile oynamayiniz. Yazacaginiz kodda bu metodu kullanmaniz gerekecektir.
+
     public static int&#91;&#93; ReadIntArrayFromFile&#40;String path&#41;&#123;
         List&lt;Integer&gt; intList = new ArrayList&lt;Integer&gt;&#40;&#41;;
         Scanner sc;
+
+
         try &#123;
             sc = new Scanner&#40;new FileReader&#40;path&#41;&#41;.useDelimiter&#40;&#34;\\s+&#34;&#41;;
         &#125;
@@ -8749,20 +8778,23 @@ public class Main &#123;
 
         while &#40;sc.hasNext&#40;&#41;&#41; &#123;
             String token = sc.next&#40;&#41;;
-            int num = Integer.parseInt&#40;token&#41;;
-            intList.add&#40;num&#41;;
+            int sayi = Integer.parseInt&#40;token&#41;;
+            intList.add&#40;sayi&#41;;
         &#125;
 
         int&#91;&#93; intArray = new int&#91;intList.size&#40;&#41;&#93;;
-        int ind = 0;
+        int i = 0;
         for &#40;Integer v:intList&#41;&#123;
-            intArray&#91;ind++&#93; = v.intValue&#40;&#41;;
+            intArray&#91;i++&#93; = v.intValue&#40;&#41;;
         &#125;
+
         return intArray;
-    &#125;
+
+
+      &#125;
+
+
 &#125;
-
-
 
 `)">D******K</td>
 <td>✅</td>
@@ -8770,46 +8802,46 @@ public class Main &#123;
 StdErr: 
 ">✅</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
+StdOut: result:0
+StdErr: strconv.ParseFloat: parsing &#34;result:0&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 552
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 552
+StdErr: 
+">✅</td>
 <td title="Expected Output: 1
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 1
+StdErr: 
+">✅</td>
 <td title="Expected Output: 1098
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 1098
+StdErr: 
+">✅</td>
 <td title="Expected Output: 80
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 80
+StdErr: 
+">✅</td>
 <td title="Expected Output: 77
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 77
+StdErr: 
+">✅</td>
 <td title="Expected Output: 880
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 880
+StdErr: 
+">✅</td>
 <td title="Expected Output: 11438
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
-<td>0</td>
+StdOut: 11438
+StdErr: 
+">✅</td>
+<td>90</td>
 </tr><tr><td>2********4</td>
 <td>A***T T***N K***Ş</td>
 <td onclick="window.alert(`Main.java
@@ -9140,14 +9172,43 @@ import java.util.*;
 
 public class Main &#123;
     public static void main&#40;String&#91;&#93; args&#41;&#123;
-       //kodlarinizi buraya yazabilirsiniz. Gerek duyarsaniz yeni metod tanimlari yapabilirsiniz. 
-       // Lutfen tum kodunuzu bu dosya &#40;Main.java&#41; icinde yaziniz.
+       int&#91;&#93; a = ReadIntArrayFromFile&#40;args&#91;0&#93;&#41;;
+
+
+      if&#40;a.length == 0&#41;&#123;
+         System.out.println&#40;&#34;sonuç:0&#34;&#41;;
+      return;
+        &#125;
+
+        int buyuksayi;
+        int kucuksayi;
+
+
+        buyuksayi = a&#91;0&#93;;
+        kucuksayi = a&#91;0&#93;;
+
+        for &#40;int i = 0; i &lt; a.length; i++&#41;&#123;
+            if &#40;a&#91;i&#93; &lt; kucuksayi&#41; &#123;
+                kucuksayi = a&#91;i&#93;;
+            &#125;
+        &#125;
+
+        for &#40;int i = 0; i &lt; a.length; i++&#41;&#123;
+            if &#40;a&#91;i&#93; &gt; buyuksayi&#41; &#123;
+                buyuksayi = a&#91;i&#93;;
+            &#125;
+
+        &#125;
+           System.out.println&#40;buyuksayi - kucuksayi&#41;;
+
+
     &#125;
-    
-    //Bu metodun kodlari ile oynamayiniz. Yazacaginiz kodda bu metodu kullanmaniz gerekecektir.
+
     public static int&#91;&#93; ReadIntArrayFromFile&#40;String path&#41;&#123;
         List&lt;Integer&gt; intList = new ArrayList&lt;Integer&gt;&#40;&#41;;
         Scanner sc;
+
+
         try &#123;
             sc = new Scanner&#40;new FileReader&#40;path&#41;&#41;.useDelimiter&#40;&#34;\\s+&#34;&#41;;
         &#125;
@@ -9157,20 +9218,23 @@ public class Main &#123;
 
         while &#40;sc.hasNext&#40;&#41;&#41; &#123;
             String token = sc.next&#40;&#41;;
-            int num = Integer.parseInt&#40;token&#41;;
-            intList.add&#40;num&#41;;
+            int deger = Integer.parseInt&#40;token&#41;;
+            intList.add&#40;deger&#41;;
         &#125;
 
         int&#91;&#93; intArray = new int&#91;intList.size&#40;&#41;&#93;;
-        int ind = 0;
+        int ilk = 0;
         for &#40;Integer v:intList&#41;&#123;
-            intArray&#91;ind++&#93; = v.intValue&#40;&#41;;
+            intArray&#91;ilk++&#93; = v.intValue&#40;&#41;;
         &#125;
+
         return intArray;
-    &#125;
+
+
+      &#125;
+
+
 &#125;
-
-
 
 `)">X******4</td>
 <td>✅</td>
@@ -9178,46 +9242,46 @@ public class Main &#123;
 StdErr: 
 ">✅</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
+StdOut: sonuç:0
+StdErr: strconv.ParseFloat: parsing &#34;sonuç:0&#34;: invalid syntax
 ">❌</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 0
+StdErr: 
+">✅</td>
 <td title="Expected Output: 552
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 552
+StdErr: 
+">✅</td>
 <td title="Expected Output: 1
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 1
+StdErr: 
+">✅</td>
 <td title="Expected Output: 1098
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 1098
+StdErr: 
+">✅</td>
 <td title="Expected Output: 80
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 80
+StdErr: 
+">✅</td>
 <td title="Expected Output: 77
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 77
+StdErr: 
+">✅</td>
 <td title="Expected Output: 880
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 880
+StdErr: 
+">✅</td>
 <td title="Expected Output: 11438
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
-<td>0</td>
+StdOut: 11438
+StdErr: 
+">✅</td>
+<td>90</td>
 </tr><tr><td>2********3</td>
 <td>D***K S**U</td>
 <td onclick="window.alert(`Main.java
@@ -10600,5 +10664,5 @@ StdOut:
 StdErr: 
 ">❌</td>
 <td>0</td>
-</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 145</li><li>Gonderim Sayisi: 61</li><li>Derlenen Gonderim Sayisi: 49</li><li>Ortalama: 22</li><li>Ortalama (Gonderim Yapanlar Arasi): 52</li><li>Ortalama (Kodu Derlenenler Arasi): 65</li><li>En yuksek not: 100</li></ul></body>
+</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 145</li><li>Gonderim Sayisi: 61</li><li>Derlenen Gonderim Sayisi: 49</li><li>Ortalama: 23</li><li>Ortalama (Gonderim Yapanlar Arasi): 55</li><li>Ortalama (Kodu Derlenenler Arasi): 69</li><li>En yuksek not: 100</li></ul></body>
 </html>

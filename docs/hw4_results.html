@@ -8395,15 +8395,21 @@ import java.io.FileReader;
 import java.util.*;
 
 public class Main &#123;
-    public static void main&#40;String&#91;&#93; args&#41;&#123;
-       //kodlarinizi buraya yazabilirsiniz. Gerek duyarsaniz yeni metod tanimlari yapabilirsiniz. 
-       // Lutfen tum kodunuzu bu dosya &#40;Main.java&#41; icinde yaziniz.
+   public static void main&#40;String&#91;&#93; args&#41;&#123;
+       int&#91;&#93; dizi = ReadIntArrayFromFile&#40;args&#91;0&#93;&#41;;
+       int toplam = 1;
+       for &#40;int i = 0; i &lt; dizi.length; i++&#41;&#123;
+           toplam *= dizi&#91;i&#93;;
+       &#125;
+       System.out.println&#40;toplam&#41;;
     &#125;
-    
-    //Bu metodun kodlari ile oynamayiniz. Yazacaginiz kodda bu metodu kullanmaniz gerekecektir.
+
     public static int&#91;&#93; ReadIntArrayFromFile&#40;String path&#41;&#123;
         List&lt;Integer&gt; intList = new ArrayList&lt;Integer&gt;&#40;&#41;;
         Scanner sc;
+      if&#40;intList == null&#41; &#123;
+    System.out.println&#40;&#34;1&#34;&#41;;
+      &#125;
         try &#123;
             sc = new Scanner&#40;new FileReader&#40;path&#41;&#41;.useDelimiter&#40;&#34;\\s+&#34;&#41;;
         &#125;
@@ -8413,20 +8419,20 @@ public class Main &#123;
 
         while &#40;sc.hasNext&#40;&#41;&#41; &#123;
             String token = sc.next&#40;&#41;;
-            int num = Integer.parseInt&#40;token&#41;;
-            intList.add&#40;num&#41;;
+            int sayi = Integer.parseInt&#40;token&#41;;
+            intList.add&#40;sayi&#41;;
         &#125;
 
         int&#91;&#93; intArray = new int&#91;intList.size&#40;&#41;&#93;;
-        int ind = 0;
+        int a = 0;
         for &#40;Integer v:intList&#41;&#123;
-            intArray&#91;ind++&#93; = v.intValue&#40;&#41;;
+            intArray&#91;a++&#93; = v.intValue&#40;&#41;;
         &#125;
+
         return intArray;
+
     &#125;
 &#125;
-
-
 
 `)">D******K</td>
 <td>✅</td>
@@ -8434,46 +8440,46 @@ public class Main &#123;
 StdErr: 
 ">✅</td>
 <td title="Expected Output: 1
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 1
+StdErr: 
+">✅</td>
 <td title="Expected Output: 8
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 8
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 0
+StdErr: 
+">✅</td>
 <td title="Expected Output: -12510720
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: -12510720
+StdErr: 
+">✅</td>
 <td title="Expected Output: 30
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 30
+StdErr: 
+">✅</td>
 <td title="Expected Output: -1851426720
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: -1851426720
+StdErr: 
+">✅</td>
 <td title="Expected Output: 303912000
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 303912000
+StdErr: 
+">✅</td>
 <td title="Expected Output: 631572480
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 631572480
+StdErr: 
+">✅</td>
 <td title="Expected Output: 555134976
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 555134976
+StdErr: 
+">✅</td>
 <td title="Expected Output: 11196915
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
-<td>0</td>
+StdOut: 11196915
+StdErr: 
+">✅</td>
+<td>100</td>
 </tr><tr><td>2********4</td>
 <td>A***T T***N K***Ş</td>
 <td onclick="window.alert(`Main.java
@@ -8762,15 +8768,21 @@ import java.io.FileReader;
 import java.util.*;
 
 public class Main &#123;
-    public static void main&#40;String&#91;&#93; args&#41;&#123;
-       //kodlarinizi buraya yazabilirsiniz. Gerek duyarsaniz yeni metod tanimlari yapabilirsiniz. 
-       // Lutfen tum kodunuzu bu dosya &#40;Main.java&#41; icinde yaziniz.
+   public static void main&#40;String&#91;&#93; args&#41;&#123;
+       int&#91;&#93; a = ReadIntArrayFromFile&#40;args&#91;0&#93;&#41;;
+       int sonuc = 1;
+       for &#40;int i = 0; i &lt; a.length; i++&#41;&#123;
+           sonuc *= a&#91;i&#93;;
+       &#125;
+       System.out.println&#40;sonuc&#41;;
     &#125;
-    
-    //Bu metodun kodlari ile oynamayiniz. Yazacaginiz kodda bu metodu kullanmaniz gerekecektir.
+
     public static int&#91;&#93; ReadIntArrayFromFile&#40;String path&#41;&#123;
         List&lt;Integer&gt; intList = new ArrayList&lt;Integer&gt;&#40;&#41;;
         Scanner sc;
+      if&#40;intList == null&#41; &#123;
+    System.out.println&#40;&#34;1&#34;&#41;;
+      &#125;
         try &#123;
             sc = new Scanner&#40;new FileReader&#40;path&#41;&#41;.useDelimiter&#40;&#34;\\s+&#34;&#41;;
         &#125;
@@ -8780,20 +8792,20 @@ public class Main &#123;
 
         while &#40;sc.hasNext&#40;&#41;&#41; &#123;
             String token = sc.next&#40;&#41;;
-            int num = Integer.parseInt&#40;token&#41;;
-            intList.add&#40;num&#41;;
+            int deger = Integer.parseInt&#40;token&#41;;
+            intList.add&#40;deger&#41;;
         &#125;
 
         int&#91;&#93; intArray = new int&#91;intList.size&#40;&#41;&#93;;
-        int ind = 0;
+        int ilk = 0;
         for &#40;Integer v:intList&#41;&#123;
-            intArray&#91;ind++&#93; = v.intValue&#40;&#41;;
+            intArray&#91;ilk++&#93; = v.intValue&#40;&#41;;
         &#125;
+
         return intArray;
+
     &#125;
 &#125;
-
-
 
 `)">X******4</td>
 <td>✅</td>
@@ -8801,46 +8813,46 @@ public class Main &#123;
 StdErr: 
 ">✅</td>
 <td title="Expected Output: 1
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 1
+StdErr: 
+">✅</td>
 <td title="Expected Output: 8
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 8
+StdErr: 
+">✅</td>
 <td title="Expected Output: 0
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 0
+StdErr: 
+">✅</td>
 <td title="Expected Output: -12510720
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: -12510720
+StdErr: 
+">✅</td>
 <td title="Expected Output: 30
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 30
+StdErr: 
+">✅</td>
 <td title="Expected Output: -1851426720
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: -1851426720
+StdErr: 
+">✅</td>
 <td title="Expected Output: 303912000
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 303912000
+StdErr: 
+">✅</td>
 <td title="Expected Output: 631572480
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 631572480
+StdErr: 
+">✅</td>
 <td title="Expected Output: 555134976
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
+StdOut: 555134976
+StdErr: 
+">✅</td>
 <td title="Expected Output: 11196915
-StdOut: 
-StdErr: strconv.ParseFloat: parsing &#34;&#34;: invalid syntax
-">❌</td>
-<td>0</td>
+StdOut: 11196915
+StdErr: 
+">✅</td>
+<td>100</td>
 </tr><tr><td>2********3</td>
 <td>D***K S**U</td>
 <td onclick="window.alert(`Main.java
@@ -10279,5 +10291,5 @@ StdOut:
 StdErr: 
 ">❌</td>
 <td>0</td>
-</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 145</li><li>Gonderim Sayisi: 67</li><li>Derlenen Gonderim Sayisi: 53</li><li>Ortalama: 24</li><li>Ortalama (Gonderim Yapanlar Arasi): 53</li><li>Ortalama (Kodu Derlenenler Arasi): 67</li><li>En yuksek not: 100</li></ul></body>
+</tr></table><p>Genel Istatistikler</p><ul><li>Ogrenci Sayisi: 145</li><li>Gonderim Sayisi: 67</li><li>Derlenen Gonderim Sayisi: 53</li><li>Ortalama: 26</li><li>Ortalama (Gonderim Yapanlar Arasi): 56</li><li>Ortalama (Kodu Derlenenler Arasi): 71</li><li>En yuksek not: 100</li></ul></body>
 </html>
