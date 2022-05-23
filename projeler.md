@@ -883,7 +883,9 @@ public class Main {
 
 # Proje 6 (Ogrenci Ikili Arama Agaci)
 
-[Proje 6 Github Classroom Davet Linki]([https://classroom.github.com/a/TfLcRNa5](https://classroom.github.com/a/0SmddpBg))
+[Proje 6 Github Classroom Davet Linki](https://classroom.github.com/a/0SmddpBg)
+
+
 
 **Son Gonderim (Commit) Tarihi: 29 Mayis 2022 23:59**
 
