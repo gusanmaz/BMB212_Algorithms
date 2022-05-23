@@ -166,7 +166,7 @@ Arguman olarak icinde tamsayilarin saklandigi ve bu sayilarin bosluk karakteri i
 cat list.txt
 1 5 6 9 9 -3
 javac Main.java
-java Main 
+java Main list.txt
 -7290
 ```
 
