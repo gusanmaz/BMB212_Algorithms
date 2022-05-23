@@ -240,6 +240,217 @@ public class Main {
         m.invoke(Main.class);
     }
 }
+```
+
+### Proje 3
+
+**Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
+
+* [Proje 3 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p3_results.html)
+
+* Tum testler 10 puan degerindedir.
+
+### Proje 4
+
+**Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
+
+* [Proje 4 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p4_results.html)
+
+* Tum testler 5 puan degerindedir.
+
+Bu projeyi degerlendirilmek icin hazirlanan `Main.java` dosyasinin kaynak kodlarini asagida gorebilirsiniz. Projeniz derlenmesi icin projenizdeki
+`Main.java` dosyasinin icerigi asagidaki `Main.java` dosyasinin icerigi ile degistirilmistir. Not tablosundaki test numaralari uzerindeki test komutlarini
+ve asagidaki `Main.java` dosyasinin icerigini inceleyerek gonderdiginiz kodlarin hangi testlere tabii tutuldugunu gorebilirsiniz.
+
+```java
+import java.lang.reflect.Method;
+
+public class Main {
+    public static int[] values1 = new int[]{4};
+    public static int[] values2 = new int[]{4, 7};
+    public static int[] values3 = new int[]{9,65, 43, 12, 34, 90, 456, 907, 101, -89, 45, -90};
+    public static int[] values4 = new int[]{3,4,5,6,9,1,0,80,800,-80,45,9000,98765,123456,-999};
+    public static int[] values5 = new int[]{2,1,3};
+    public static int[] values6 = new int[]{10, 6, 8, 4, 15, 12, 11, 7};
+    public static int[] values7 = new int[]{1, 5, 0, -4, 9, 8, 3, 10};
+    public static int[] values8 = new int[]{60, 25, 40, 56, 55, 43, 67, 90, 85, 10};
+    public static int[] values9 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    public static int[] values10 = new int[]{9, 8, 7, 6, 5, 1, 19, 20, 25, 18, 17, 21};
+
+    public static void insertList(BST tree, int[] arr){
+        for (int value: arr){
+            tree.Add(value);
+        }
+    }
+
+    public static void breakBST(BST tree, int oldValue, int newValue){
+        TreeNode n = tree.root;
+        while (n != null) {
+            if (n.val == oldValue){
+                n.val = newValue;
+                return;
+            }
+
+            if (n.val < oldValue){
+                n = n.right;
+            }
+
+            if (n.val > oldValue){
+                n = n.left;
+            }
+        }
+        return;
+    }
+
+    public static void test1(){
+        BST t = new BST();
+        insertList(t, values1);
+        t.PrintPreOrder();
+    }
+
+    public static void test2(){
+        BST t = new BST();
+        insertList(t, values2);
+        t.PrintPostOrder();
+    }
+
+    public static void test3(){
+        BST t = new BST();
+        insertList(t, values3);
+        t.PrintPreOrder();
+    }
+
+    public static void test4(){
+        BST t = new BST();
+        insertList(t, values4);
+        t.PrintPostOrder();
+    }
+
+    public static void test5(){
+        BST t = new BST();
+        insertList(t, values5);
+        t.PrintPreOrder();
+    }
+
+    public static void test6(){
+        BST t = new BST();
+        insertList(t, values6);
+        t.PrintPostOrder();
+    }
+
+    public static void test7(){
+        BST t = new BST();
+        insertList(t, values7);
+        t.PrintPreOrder();
+    }
+
+    public static void test8(){
+        BST t = new BST();
+        insertList(t, values8);
+        t.PrintPostOrder();
+    }
+
+    public static void test9(){
+        BST t = new BST();
+        insertList(t, values9);
+        t.PrintPreOrder();
+    }
+
+    public static void test10(){
+        BST t = new BST();
+        insertList(t, values10);
+        t.PrintPostOrder();
+    }
+
+    public static void test11(){
+        BST t = new BST();
+        insertList(t, values1);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test12(){
+        BST t = new BST();
+        insertList(t, values2);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test13(){
+        BST t = new BST();
+        insertList(t, values3);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test14(){
+        BST t = new BST();
+        insertList(t, values4);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test15(){
+        BST t = new BST();
+        insertList(t, values5);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test16(){
+        BST t = new BST();
+        insertList(t, values6);
+        breakBST(t, 10, 100);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test17(){
+        BST t = new BST();
+        insertList(t, values7);
+        breakBST(t, -4, 2);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test18(){
+        BST t = new BST();
+        insertList(t, values8);
+        breakBST(t, 67, 59);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test19(){
+        BST t = new BST();
+        insertList(t, values9);
+        breakBST(t, 5, -5);
+        System.out.println(t.IsBST());
+    }
+
+    public static void test20(){
+        BST t = new BST();
+        insertList(t, values10);
+        breakBST(t, 6, 12);
+        System.out.println(t.IsBST());
+    }
+
+
+    public static void main(String[] args) throws Exception {
+        String testName = args[0];
+        if (!testName.contains("test")) {
+            return;
+        }
+        String testNoStr = testName.replaceAll("test", "");
+        int testNo = -1;
+        try {
+            testNo = Integer.parseInt(testNoStr);
+        } catch (Exception ex) {
+            return;
+        }
+        if ((testNo < 1) || (testNo > 20)) {
+            return;
+        }
+
+        Method m = Main.class.getMethod(testName, null);
+        m.invoke(Main.class);
+    }
+
+}
+```
+
 
 
 
