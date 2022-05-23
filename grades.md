@@ -269,8 +269,8 @@ public class Main {
     public static int[] values1 = new int[]{4};
     public static int[] values2 = new int[]{4, 7};
     public static int[] values3 = new int[]{9,65, 43, 12, 34, 90, 456, 907, 101, -89, 45, -90};
-    public static int[] values4 = new int[]{3,4,5,6,9,1,0,80,800,-80,45,9000,98765,123456,-999};
-    public static int[] values5 = new int[]{2,1,3};
+    public static int[] values4 = new int[]{3, 4, 5, 6, 9, 1, 0, 80, 800, -80, 45, 9000, 98765, 123456, -999};
+    public static int[] values5 = new int[]{2, 1, 3};
     public static int[] values6 = new int[]{10, 6, 8, 4, 15, 12, 11, 7};
     public static int[] values7 = new int[]{1, 5, 0, -4, 9, 8, 3, 10};
     public static int[] values8 = new int[]{60, 25, 40, 56, 55, 43, 67, 90, 85, 10};
