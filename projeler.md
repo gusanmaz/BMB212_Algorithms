@@ -630,8 +630,8 @@ false
 * Projenizdeki `HTMLNode.java` dosyasi icinde herhangi bir degisiklik yapmayiniz.
 * `HTMLTree.java` dosyasindaki constructor(yapici) kodlar uzerinde herhangi bir degisiklik yapmayiniz.
 * `HTMLTree.java` dosyasindaki sinif degiskeni olan root degiskeninin tanimlandigi satirda herhangi bir oynama yapmayiniz.
-* Yeni bir java uzantili kaynak dosyasi olusturmayiniz.
-* Github'a yukleyeceginiz kodun derlendiginden emin olunuz. Derlenmeyen kodlar 0 puan alacaktir!
+* ~~Yeni bir java uzantili kaynak dosyasi olusturmayiniz.~~
+* Bu proje icin gerek duyarsaniz Stack ve/veya Queue yapilarini kullanabilirsiniz. Bu amacla bu yapilari tanimlamak icin yeni java uzantili dosya(lar) olusturabilirsiniz. Bu dosyalar projede size hazir verilen java uzantili dosyalarla ayni yerde (klasorde) olmalidir. * Github'a yukleyeceginiz kodun derlendiginden emin olunuz. Derlenmeyen kodlar 0 puan alacaktir!
 
 ## Kodun Derlenmesi
 
