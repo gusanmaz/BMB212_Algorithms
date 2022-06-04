@@ -451,6 +451,321 @@ public class Main {
 }
 ```
 
+### Proje 5
+
+**Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
+
+* [Proje 5 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p5_results.html)
+
+* Tum testler 20 puan degerindedir.
+
+Bu projeyi degerlendirilmek icin hazirlanan `Main.java` dosyasinin kaynak kodlarini asagida gorebilirsiniz. Projeniz derlenmesi icin projenizdeki
+`Main.java` dosyasinin icerigi asagidaki `Main.java` dosyasinin icerigi ile degistirilmistir. Not tablosundaki test numaralari uzerindeki test komutlarini
+ve asagidaki `Main.java` dosyasinin icerigini inceleyerek gonderdiginiz kodlarin hangi testlere tabii tutuldugunu gorebilirsiniz.
+
+```java
+import java.lang.reflect.Method;
+
+public class Main {
+    public static void main(String args[]) throws Exception{
+        String testName = args[0];
+        if (!testName.contains("Test")){
+            return;
+        }
+        String testNoStr = testName.replaceAll("Test", "");
+        int testNo = -1;
+        try{
+            testNo = Integer.parseInt(testNoStr);
+        }
+        catch (Exception ex){
+            return;
+        }
+        if ((testNo < 1) || (testNo > 5)) {
+            return;
+        }
+
+        Method m = Main.class.getMethod(testName, null);
+        System.out.print(m.invoke(Main.class));
+    }
+
+    public static String test1(){
+        HTMLNode body = new HTMLNode("body");
+        HTMLNode html = new HTMLNode("html");
+
+        HTMLNode p = new HTMLNode("p");
+        HTMLNode h1 = new HTMLNode("h1");
+        HTMLNode div = new HTMLNode("div");
+
+        HTMLNode article = new HTMLNode("article");
+
+        HTMLNode[] divChildren = new HTMLNode[]{article};
+        HTMLNode[] bodyChildren = new HTMLNode[]{div, p, h1};
+        HTMLNode[] htmlChildren = new HTMLNode[]{body};
+
+        html.setChildren(htmlChildren);
+        body.setChildren(bodyChildren);
+        div.setChildren(divChildren);
+
+        HTMLTree tr = new HTMLTree(html);
+        return tr.GetHTML();
+    }
+
+    public static String test2(){
+        HTMLNode article = new HTMLNode("article");
+        HTMLNode a = new HTMLNode("a");
+        HTMLNode p = new HTMLNode("p");
+        HTMLNode h1 = new HTMLNode("h1");
+
+        HTMLNode div1 = new HTMLNode("div");
+        HTMLNode div2 = new HTMLNode("div");
+        HTMLNode div3 = new HTMLNode("div");
+
+        HTMLNode ol   = new HTMLNode("ol");
+        HTMLNode li1   = new HTMLNode("li");
+        HTMLNode li2   = new HTMLNode("li");
+        HTMLNode li3   = new HTMLNode("li");
+        HTMLNode li4   = new HTMLNode("li");
+
+        HTMLNode body = new HTMLNode("body");
+        HTMLNode head = new HTMLNode("head");
+        HTMLNode title = new HTMLNode("title");
+        HTMLNode meta = new HTMLNode("meta");
+        HTMLNode html = new HTMLNode("html");
+
+        HTMLNode[] htmlChildren = new HTMLNode[]{head, body};
+        HTMLNode[] bodyChildren = new HTMLNode[]{h1, div1, article, div2};
+        HTMLNode[] headChildren = new HTMLNode[]{meta, title};
+
+        HTMLNode[] div1Children = new HTMLNode[]{div3};
+        HTMLNode[] div3Children = new HTMLNode[]{p};
+        HTMLNode[] pChildren = new HTMLNode[]{a};
+
+        HTMLNode[] div2Children = new HTMLNode[]{ol};
+        HTMLNode[] olChildren = new HTMLNode[]{li1, li2, li3, li4};
+
+        html.setChildren(htmlChildren);
+        body.setChildren(bodyChildren);
+        head.setChildren(headChildren);
+
+        div1.setChildren(div1Children);
+        div3.setChildren(div3Children);
+        p.setChildren(pChildren);
+
+        div2.setChildren(div2Children);
+        ol.setChildren(olChildren);
+
+        HTMLTree tr = new HTMLTree(html);
+        return tr.GetHTML();
+    }
+
+    public static String test3(){
+        HTMLNode html = new HTMLNode("html");
+        HTMLTree tr = new HTMLTree(html);
+        return tr.GetHTML();
+    }
+
+    public static String test4(){
+        HTMLTree tr = new HTMLTree(null);
+        return tr.GetHTML();
+    }
+
+    public static String test5(){
+        HTMLNode article = new HTMLNode("article");
+        HTMLNode a = new HTMLNode("a");
+        HTMLNode p = new HTMLNode("p");
+        HTMLNode h1 = new HTMLNode("h1");
 
 
+        HTMLNode div1 = new HTMLNode("div");
+        HTMLNode div2 = new HTMLNode("div");
+        HTMLNode div3 = new HTMLNode("div");
+        HTMLNode div4 = new HTMLNode("div");
 
+        HTMLNode ol   = new HTMLNode("ol");
+        HTMLNode li1   = new HTMLNode("li");
+        HTMLNode li2   = new HTMLNode("li");
+        HTMLNode li3   = new HTMLNode("li");
+        HTMLNode li4   = new HTMLNode("li");
+
+        HTMLNode body = new HTMLNode("body");
+        HTMLNode head = new HTMLNode("head");
+        HTMLNode title = new HTMLNode("title");
+        HTMLNode meta = new HTMLNode("meta");
+        HTMLNode html = new HTMLNode("html");
+
+        HTMLNode span = new HTMLNode("span");
+
+        HTMLNode[] htmlChildren = new HTMLNode[]{head, body};
+        HTMLNode[] bodyChildren = new HTMLNode[]{h1, div1, article, div2};
+        HTMLNode[] headChildren = new HTMLNode[]{meta, title};
+
+        HTMLNode[] div1Children = new HTMLNode[]{div3};
+        HTMLNode[] div3Children = new HTMLNode[]{p};
+        HTMLNode[] pChildren = new HTMLNode[]{a};
+
+        HTMLNode[] div2Children = new HTMLNode[]{ol};
+        HTMLNode[] olChildren = new HTMLNode[]{li1, li2, li3, li4};
+
+        HTMLNode[] li2Children = new HTMLNode[]{span};
+        HTMLNode[] h1Children = new HTMLNode[]{div4};
+
+
+        html.setChildren(htmlChildren);
+        body.setChildren(bodyChildren);
+        head.setChildren(headChildren);
+
+        div1.setChildren(div1Children);
+        div3.setChildren(div3Children);
+        p.setChildren(pChildren);
+
+        div2.setChildren(div2Children);
+        ol.setChildren(olChildren);
+
+        li2.setChildren(li2Children);
+        h1.setChildren(h1Children);
+
+        HTMLTree tr = new HTMLTree(html);
+        return tr.GetHTML();
+    }
+
+}
+```
+
+### Proje 6
+
+**Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
+
+* [Proje 6 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p4_results.html)
+
+* 15 puanlik testler: Test1, Test2, Test4 ve Test4
+* 10 puanlik testler: Test5, Test6, Test7 ve Test8
+* 25 puanlik bonus test: Test9 **Bu testte kaynak koddaki aciklamalarin tamaminin okunup okunmadigi test edilmistir**
+
+Bu projeyi degerlendirilmek icin hazirlanan `Main.java` dosyasinin kaynak kodlarini asagida gorebilirsiniz. Projeniz derlenmesi icin projenizdeki
+`Main.java` dosyasinin icerigi asagidaki `Main.java` dosyasinin icerigi ile degistirilmistir. Not tablosundaki test numaralari uzerindeki test komutlarini
+ve asagidaki `Main.java` dosyasinin icerigini inceleyerek gonderdiginiz kodlarin hangi testlere tabii tutuldugunu gorebilirsiniz.
+
+```java
+import java.lang.reflect.Method;
+
+public class Main {
+    public static Student[] generateStudents(){
+        Student bugs = new Student(602, "Bugs", "Bunny", 1.09);
+        Student daffy = new Student(200, "Daffy", "Duck", 2.56);
+        Student mickey = new Student(150, "Mickey", "Mouse", 3.45);
+        Student roadrunner = new Student(400, "Road", "Runner", 3.09);
+        Student coyote = new Student(250, "Wile", "Coyote", 2.35);
+        Student sam = new Student(242, "Yosemite", "Sam", 2.65);
+        Student elmer = new Student(305, "Elmer", "Fudd", 0.98);
+        Student tweety = new Student(406, "Tweety", "Bird", 0.95);
+        Student foghorn = new Student(104, "Foghorn", "Leghorn", 1.27);
+        Student tom = new Student(901, "Sylvester", "Cat", 0.50);
+        Student jerry = new Student(875, "Jerry", "Mice", 3.14);
+
+        Student[] students = new Student[]{bugs, daffy, mickey, roadrunner, coyote, sam, elmer, tweety, foghorn, tom, jerry};
+        return students;
+    }
+
+    public static void main(String args[]) throws Exception {
+        CSV();
+        String testName = args[0];
+        if (!testName.contains("test")) {
+            return;
+        }
+        String testNoStr = testName.replaceAll("test", "");
+        int testNo = -1;
+        try {
+            testNo = Integer.parseInt(testNoStr);
+        } catch (Exception ex) {
+            return;
+        }
+        if ((testNo < 1) || (testNo > 20)) {
+            return;
+        }
+
+        Method m = Main.class.getMethod(testName, null);
+        m.invoke(Main.class);
+    }
+
+    public static void test1(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "ID");
+        tree1.insert(students);
+        String content = tree1.toDot(rootNode, "");
+        System.out.println(content);
+    }
+
+    public static void test2(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "name");
+        tree1.insert(students);
+        String content = tree1.toDot(rootNode, "");
+        System.out.println(content);
+    }
+
+    public static void test3(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "surname");
+        tree1.insert(students);
+        String content = tree1.toDot(rootNode, "");
+        System.out.println(content);
+    }
+
+    public static void test4(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "GPA");
+        tree1.insert(students);
+        String content = tree1.toDot(rootNode, "");
+        System.out.println(content);
+    }
+
+    public static void test5(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "ID");
+        tree1.insert(students);
+        tree1.printOrderedStudentsTable();
+    }
+
+    public static void test6(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "name");
+        tree1.insert(students);
+        tree1.printOrderedStudentsTable();
+    }
+
+    public static void test7(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "surname");
+        tree1.insert(students);
+        tree1.printOrderedStudentsTable();
+    }
+
+    public static void test8(){
+        Student[] students = generateStudents();
+        Student marvin = new Student(500, "Marvin", "Martian", 2.59);
+        BSTNode rootNode = new BSTNode(marvin);
+        BST tree1 = new BST(rootNode, "GPA");
+        tree1.insert(students);
+        tree1.printOrderedStudentsTable();
+    }
+
+    public static void test9(){
+        BST tree1 = new BST();
+        System.out.print(tree1.bonus());
+    }
+}
+```
