@@ -1,0 +1,146 @@
+ID,Name,Handle,Submission,Compilation,Total Points,1. Test |Main test1,2. Test |Main test2,3. Test |Main test3,4. Test |Main test4,5. Test |Main test5,6. Test |Main test6,7. Test |Main test7,8. Test |Main test8,9. Test |Main test9
+1********4,E***N S***R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********9,Ö***N Y****Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,G******R Ö***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********7,M****M O**R P***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********9,O**N M*****A,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********0,Ö**R F***K T**K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,C***N D*******N,C************N,true,true,100,t,t,t,t,t,t,t,t,f
+1********0,A******H S******N D**E,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,Ö***N S******R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********7,R***A D*****Ğ,R**********G,true,true,0,f,f,f,f,f,f,f,f,f
+1********3,N****N G****Y,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,H****İ Ş****K,H********K,true,true,125,t,t,t,t,t,t,t,t,t
+1********8,Y***F B***K K****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,G****Z B***R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,A***T B**K S***İ,B*****V,true,false,0,f,f,f,f,f,f,f,f,f
+1********0,Y***S Ç****K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,I*****M F***K İ**E,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********8,A***T F****N U**R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********0,M***T Y***R Ş****Y,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,E****R Ş*****R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,E**N D***Z B***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********7,M***Ç B****L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********1,T**A G***R G******Ç,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********2,A******N K*****İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********0,R***T H*****V,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,C*M E***Ç,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********2,B***K N***N İ***N,M*******A,true,true,100,t,t,t,t,t,t,t,t,f
+1********5,M***E İ***N,M********N,true,false,0,f,f,f,f,f,f,f,f,f
+1********9,M******D S***H G****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,N****S S****R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,D***A N*R B*******Ü,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********2,O***Y H****İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,B***A I****I,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,M****T E**İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********2,K***L E*****P I**N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,A*****K K**E,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,K*****Y B***Ş Y****L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********8,M***E Ç***K,C******E,true,false,0,f,f,f,f,f,f,f,f,f
+1********3,Y***F B******N D******Ş,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,S***N K****Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,Y***T K*****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********7,I**M H****İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********8,Z****P Ş****Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********1,Ş***N E**S Ç***K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,R***T Ç***K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,E**R B***N Ö**E,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********2,B*****N B*****İ,M********A,true,false,0,f,f,f,f,f,f,f,f,f
+1********3,F****T M**T E*****R,L*****T,true,true,0,f,f,f,f,f,f,f,f,f
+1********4,M*****A F***K E**N,M************N,true,false,0,f,f,f,f,f,f,f,f,f
+1********5,Ö***R E***P,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,B*****R Ç***K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********7,B***N K******Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********8,K****N E***N T******İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********0,E*****N E**N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********1,A**T A***L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,C*M G******U,C*********U,true,true,0,f,f,f,f,f,f,f,f,f
+1********4,H***L I*****M UZ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,M*****A M**T E***İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********2,M****I K*****I,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,S*****R İ********İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********3,P***A D******V,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,F****H P****A N****F,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********4,D****M E**H,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,I****L M**T T***L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********8,B*****N  K****A,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********1,F****T K***K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********1,F***H A**R,F*********R,true,true,125,t,t,t,t,t,t,t,t,t
+1********3,M**A S****N G******N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********5,M*****A N*****I,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,I****L S***T A****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********7,A****N E***Ş,A*********S,true,true,125,t,t,t,t,t,t,t,t,t
+1********6,O**R O***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+1********6,H***B V***L,H*************2,true,true,100,t,t,t,t,t,t,t,t,f
+1********7,S**T U***N,S******3,true,true,100,t,t,t,t,t,t,t,t,f
+1********1,İ*A Ö***R,C*********D,true,true,100,t,t,t,t,t,t,t,t,f
+1********2,E**E A***L,E********L,true,false,0,f,f,f,f,f,f,f,f,f
+1********8,M******N A******Ş,M********7,true,false,0,f,f,f,f,f,f,f,f,f
+1********3,H*****N A*****R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,H****E G*****Ü,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********5,Ö**R F***K K******U,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********6,H****R İ***İ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,G*****K T***R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,A*İ H******U,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********3,E**İ K***U,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,R****N U**K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********0,M****A Ç*****A,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,Y***F G***L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********2,O*****N A***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,H***A B****N D****Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********8,R****N A***Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********3,I*****M H***L U*******R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********6,S*****R K***L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,O***N T**Ü,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********5,M*****T A***N,M**********N,true,false,0,f,f,f,f,f,f,f,f,f
+2********6,I***S A*******N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********7,M******T A*****Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********8,S***F A******K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********3,A**A A**L Ö****K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,E*E K***N C****T,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********7,E****Ç A***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********9,U**T C*N Ç***K,U*********K,true,true,125,t,t,t,t,t,t,t,t,t
+2********1,G*L B****N Y***L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********6,M*****A A*****N B*********K,A*******B,true,false,0,f,f,f,f,f,f,f,f,f
+2********7,Y***F O**Ç,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********9,R*****A B****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********0,İ***R Y****Z,D*********S,true,false,0,f,f,f,f,f,f,f,f,f
+2********1,E****R Ç***N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********2,S***N G***Ş A****A,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********5,U**U Ü******Ğ,U**********G,true,false,0,f,f,f,f,f,f,f,f,f
+2********6,Y***N K***R,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********7,A**U K***********K,A****T,true,true,125,t,t,t,t,t,t,t,t,t
+2********8,E***E Ö**N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,M*****A Y***T M****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********6,B***L E*****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********8,M******R S****L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********9,U**U C****Z,U********Z,true,true,125,t,t,t,t,t,t,t,t,t
+2********0,V***L Ö***P,Y*******X,true,false,0,f,f,f,f,f,f,f,f,f
+2********2,D**A E***K,D******K,true,true,125,t,t,t,t,t,t,t,t,t
+2********4,A***T T***N K***Ş,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********6,E**Y D***R,E*********2,true,true,125,t,t,t,t,t,t,t,t,t
+2********7,I****A K**A,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********8,M******D U**R Ö**N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********2,M***H C*N E****İ ,X******4,true,true,125,t,t,t,t,t,t,t,t,t
+2********3,D***K S**U,D*******U,true,true,100,t,t,t,t,t,t,t,t,f
+2********9,B***K E*****N K*****Ş,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********0,E****N D******K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,M***T G***E,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********7,M*****A R***L Ç*M,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********8,Ö**R F***K S****I,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********9,S***M Ş***I,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********0,H*****N Ç*******K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********1,F***A N*R K****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********3,A*İ G***K,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********8,S***G J*****V,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********2,A****A I*******A,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,I****L N*****T R*****B,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********6,K***N A*******E,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********0,A**R J*****V,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********7,S****B E****L,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,C*N T*****Y,C********Y,true,false,0,f,f,f,f,f,f,f,f,f
+2********3,U**R A***Z,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,M***T T****Ş,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********4,A**Z ÖZ,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********0,J**E M*******U,N*A,false,false,0,f,f,f,f,f,f,f,f,f
+2********7,G*L  G****N,N*A,false,false,0,f,f,f,f,f,f,f,f,f
