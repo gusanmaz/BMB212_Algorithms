@@ -635,7 +635,7 @@ public class Main {
 
 **Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
 
-* [Proje 6 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p4_results.html)
+* [Proje 6 Not Tablosu](https://gusanmaz.github.io/BMB212_Algorithms/p6_results.html)
 
 * 15 puanlik testler: Test1, Test2, Test4 ve Test4
 * 10 puanlik testler: Test5, Test6, Test7 ve Test8
