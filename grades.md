@@ -631,6 +631,48 @@ public class Main {
 }
 ```
 
+#### Cozum
+
+Projede istenilenleri gerceklestiren `HTMLTree.java`
+
+```java
+public class HTMLTree {
+    private HTMLNode root;
+
+    public HTMLTree(HTMLNode root){
+        this.root = root;
+    }
+
+    public HTMLTree(){
+        this(null);
+    }
+
+    public String GetHTML(HTMLNode node, int level){
+        if (node == null){
+            return "";
+        }
+        String space = "   ";
+        String levelSpace = space.repeat(level);
+        String begin = levelSpace +  "<" + node.getTag() + ">\n";
+        String end   = levelSpace + "</" + node.getTag() + ">\n";
+
+        String mid = "";
+        HTMLNode[] children = node.getChildren();
+        if (children != null){
+            for (int i = 0; i < children.length; i++){
+                mid += GetHTML(children[i], level + 1);
+            }
+        }
+        return begin + mid + end;
+    }
+
+    public String GetHTML(){
+        return GetHTML(root, 0);
+    }
+
+}
+```
+
 ### Proje 6
 
 **Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
@@ -773,7 +815,7 @@ public class Main {
 
 Projede istenilenleri gerceklestiren `BST.java`
 
-```
+```java
 import java.io.PrintWriter;
 
 public class BST {
