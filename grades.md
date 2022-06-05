@@ -709,7 +709,6 @@ public class Main {
     }
 
     public static void main(String args[]) throws Exception {
-        CSV();
         String testName = args[0];
         if (!testName.contains("test")) {
             return;
