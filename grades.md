@@ -721,7 +721,7 @@ public class Main {
         } catch (Exception ex) {
             return;
         }
-        if ((testNo < 1) || (testNo > 20)) {
+        if ((testNo < 1) || (testNo > 9)) {
             return;
         }
 
