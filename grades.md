@@ -1112,3 +1112,23 @@ public class BST {
     
 }
 ```
+
+### Genel Odev Notlandirmasi
+
+**Asagidaki baglantidan verilen tum odev, proje ve genel odev notunuzu gorebilirsiniz**
+
+* [BMB212 Odev Notlandirmasi](### Proje 6
+
+**Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
+
+* [Proje 6 Not Tablosu](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/docs/all_grades.csv)
+
+* Odev ve projelerinin notlandirmadaki agirligi asagida verilmistir
+
+* Odev 1, Odev 2, Odev 3: Her biri 2 puan, toplam 6 puan
+* Odev 4, Odev 5, Odev 6: Her biri 3 puan, toplam 9 puan
+* Proje 1: 25 puan
+* Proje 2: 20 puan
+* Proje 3, Proje 4, Proje 5 ve Proje 6: Her biri 15 puan, toplam 60 puan
+* Odev ve proje puanlarinin toplami: 120
+* Ayrica ders katilim ve Github katilim gibi kriterlere bagli olarak genel odev puaniniza ekleme yapilmistir.
