@@ -1117,11 +1117,7 @@ public class BST {
 
 **Asagidaki baglantidan verilen tum odev, proje ve genel odev notunuzu gorebilirsiniz**
 
-* [BMB212 Odev Notlandirmasi](### Proje 6
-
-**Gonderdiginiz kodu Github kullanici adinizi tikladiginizda acilan pop-up penceresi icinde gorebilirsiniz.**
-
-* [Proje 6 Not Tablosu](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/docs/all_grades.csv)
+* [BMB212 Odev Notlandirmasi](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/docs/all_grades.csv)
 
 * Odev ve projelerinin notlandirmadaki agirligi asagida verilmistir
 
