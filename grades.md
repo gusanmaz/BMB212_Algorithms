@@ -836,7 +836,7 @@ public class BST {
         this(null, "ID");
     }
 
-    public int Len(){
+    public int len(){
         return Len(root);
     }
 
@@ -861,7 +861,7 @@ public class BST {
     public Student[] getOrderedStudents(){
         ind = 0;
         Student[] s = new Student[len()];
-        Inorder(root, s);
+        inOrder(root, s);
         return s;
     }
 
@@ -882,14 +882,14 @@ public class BST {
         System.out.println();
     }
 
-    private void inorder(BSTNode node, Student[] s){
+    private void inOrder(BSTNode node, Student[] s){
         if (node == null){
             return;
         }
-        inorder(node.left, s);
+        inOrder(node.left, s);
         s[ind] = node.data;
         ind++;
-        inorder(node.right, s);
+        inOrder(node.right, s);
     }
 
     // Bu metod agaci gorsellestirmek icin kullanmaktadir.
