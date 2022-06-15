@@ -4,9 +4,15 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 
 # DUYURU
 
+[](
+
 ![tub_hackathon](https://github.com/gusanmaz/BMB212_Algorithms/blob/main/images/tub_hackathon.png)
 
 [Ayrintili Bilgi icin tiklayiniz](http://cmf-bm.web.nku.edu.tr/T%C3%9CBHackathon2022Yar%C4%B1%C5%9Fmas%C4%B1/duyuruayrinti/m/0/38723/78)
+
+)
+
+**Final sınavında tüm proje ve ödev soruları ile bağlantılı soru sorulabilir**
 
 ## 1. Uygulama (22 Mart 2022)
 
